@@ -1,1 +1,2 @@
-# EC2022-Assignment1
+# assignment1
+Please find the detailed requirment on Blackborad!
