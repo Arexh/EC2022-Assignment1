@@ -11,7 +11,7 @@
 %            IEEE Transactions on Cybernetics (2020).
 % 
 %  D. Yazdani et al.,
-%            "Generalized Moving Peaks Benchmark," arXiv:2106.06174, (2021).
+%            "Generalized Moving Peaks Benchmark," arXiv:2106.06174, (2021). 
 % 
 %  T. Blackwell and J. Branke,
 %            "Multiswarms, exclusion, and anti-convergence in dynamic environments"
@@ -53,67 +53,135 @@
 %         danial.yazdani AT yahoo dot com
 % Copyright notice: (c) 2021 Danial Yazdani
 %*********************************************************************************************************************
-clear all;close all;clc;
+DFileName = 'main.log';
+LogPathName = 'test';
+
+diary off;
+LogPath = fullfile('.', 'logs', LogPathName);
+if ~exist(LogPath, 'dir')
+    mkdir(LogPath)
+end
+DFile = fullfile(LogPath, DFileName);
+if exist(DFile, 'file') ; delete(DFile); end
+diary(DFile);
+diary on;
+
+ParallelProblem = [];
+IndependentProblem = [5];
 %% Input variables
 %********Benchmark parameters and Run number***
 PeakNumbers = [5,	10,	25,	50,	100,	10,	10,	10,	10,	10,	10,	10,  1,  10];
 ChangeFrequencys = [5000,	5000,	5000,	5000,	5000,	2500,	1000,	500,	5000,	5000,	5000,	5000,  5000,  5000];
 Dimensions = [5,	5,	5,	5,	5,	5,	5,	5,	10,	20,	5,	5,  5,  2];
 ShiftSeveritys = [1,	1,	1,	1,	1,	1,	1,	1,	1,	1,	2,	5,   1,  1];
-%%
-for problemNum = 1:14
 
-    PeakNumber                               = PeakNumbers(problemNum);  %The default value is 10
-    ChangeFrequency                          = ChangeFrequencys(problemNum);%The default value is 5000
-    Dimension                                = Dimensions(problemNum);   %The default value is 5
-    ShiftSeverity                            = ShiftSeveritys(problemNum);   %The default value is 1
-    EnvironmentNumber                        = 100; %The default value is 100
-    RunNumber                                = 31;  %It should be set to 31
-    
-    f = fopen(sprintf('F%d.dat', problemNum), 'w');
-    OfflineError = NaN(1,RunNumber);
-    for RunCounter=1 : RunNumber
-        rng(RunCounter);%This random seed setting is used to initialize the Problem-This must be identical for all peer algorithms to have a fair comparison.
-        Problem = BenchmarkGenerator(PeakNumber,ChangeFrequency,Dimension,ShiftSeverity,EnvironmentNumber);
-        rng('shuffle');%Set a random seed for the optimizer based on the system clock
-        %% Initialiing Optimizer
-        clear Optimizer;
-        Results = NaN(2,Problem.EnvironmentNumber);
-        Optimizer.Dimension = Problem.Dimension;
-        Optimizer.PopulationSize = 5;
-        Optimizer.MaxCoordinate   = Problem.MaxCoordinate;
-        Optimizer.MinCoordinate = Problem.MinCoordinate;
-        Optimizer.DiversityPlus = 1;
-        Optimizer.x = 0.729843788;
-        Optimizer.c1 = 2.05;
-        Optimizer.c2 = 2.05;
-        Optimizer.ShiftSeverity = 1;% 算法学习到的shiftSeverity
-        Optimizer.QuantumRadius = Optimizer.ShiftSeverity;
-        Optimizer.QuantumNumber = 5;
-        Optimizer.SwarmNumber = 10;
-        Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate-Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber) ^ (1 / Optimizer.Dimension)));
-        Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
-        for ii=1 : Optimizer.SwarmNumber
-            [Optimizer.pop(ii),Problem] = InitializingOptimizer(Optimizer.Dimension,Optimizer.MinCoordinate,Optimizer.MaxCoordinate,Optimizer.PopulationSize,Problem);
+disp(['Start time: ', datestr(now)]);
+
+parfor index = 1:length(ParallelProblem)
+    ProblemNum = ParallelProblem(index);
+    ProblemRun(ProblemNum, PeakNumbers(ProblemNum), ChangeFrequencys(ProblemNum), Dimensions(ProblemNum), ShiftSeveritys(ProblemNum), 100, 31, false, LogPath);
+end
+
+for index = 1:length(IndependentProblem)
+    ProblemNum = IndependentProblem(index);
+    ProblemRun(ProblemNum, PeakNumbers(ProblemNum), ChangeFrequencys(ProblemNum), Dimensions(ProblemNum), ShiftSeveritys(ProblemNum), 100, 31, true, LogPath);
+end
+
+function ProblemRun(ProblemNum, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber, RunNumber, IfParallel, LogPath)
+    disp(['PROBLEM NUMBER: ', num2str(ProblemNum), ' Runnumber: ', num2str(RunNumber)]);
+    OuputFile = fullfile(LogPath, sprintf('F%d.dat', ProblemNum));
+    if exist(OuputFile, "file")
+        OfflineError = ReadFile(OuputFile);
+        if size(OfflineError, 1) ~= RunNumber
+            OfflineError = NaN(1, RunNumber);
         end
-        %% main loop
-        while 1
-            [Optimizer,Problem] = Optimization(Optimizer,Problem);
-            if Problem.RecentChange == 1%When an environmental change has happened
-                Problem.RecentChange = 0;
-                [Optimizer,Problem] = Reaction(Optimizer,Problem);
-                VisualizationFlag = 0;
-                clc; disp(['Run number: ',num2str(RunCounter),'   Environment number: ',num2str(Problem.Environmentcounter)]);
+        disp(size(OfflineError, 1));
+    else
+        OfflineError = NaN(1, RunNumber);
+    end
+    function UpdateOfflineError(x)
+        OfflineError(x(1)) = x(2);
+        WriteFile(OuputFile, OfflineError);
+        disp(['Offline Error Updated (Run: ', num2str(x(1)), ').']);
+    end
+    if IfParallel
+        D = parallel.pool.DataQueue;
+        D.afterEach(@(x) UpdateOfflineError(x));
+        W = WorkerObjWrapper(OfflineError);
+        parfor RunCounter=1 : RunNumber
+            ErrorArray = W.Value;
+            if ~isnan(ErrorArray(RunCounter))
+                disp(['Problem: ', num2str(ProblemNum), ' Run: ', num2str(RunCounter), sprintf('\t'), 'already finished.']);
+                continue;
             end
-            if  Problem.FE >= Problem.MaxEvals%When termination criteria has been met
-                break;
-            end
+            CurrentError = IndependentRun(ProblemNum, RunCounter, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
+            send(D, [RunCounter, mean(CurrentError)]);
         end
-        OfflineError(1,RunCounter) = mean(Problem.CurrentError);
+    else
+        for RunCounter=1 : RunNumber
+            if ~isnan(OfflineError(RunCounter))
+                disp(['Problem: ', num2str(ProblemNum), ' Run: ', num2str(RunCounter), sprintf('\t'), 'already finished.']);
+                continue;
+            end
+            CurrentError = IndependentRun(ProblemNum, RunCounter, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
+            OfflineError(RunCounter) = mean(CurrentError);
+            WriteFile(OuputFile, OfflineError);
+        end
     end
     E_o = [mean(OfflineError),median(OfflineError),std(OfflineError)/sqrt(RunNumber)];
     close;clc;
     disp(['Offline error ==> ', ' Mean = ', num2str(E_o(1)), ', Median = ', num2str(E_o(2)), ', Standard Error = ', num2str(E_o(3))]);
+    WriteFile(OuputFile, OfflineError);
+end
+
+function [CurrentError] = IndependentRun(ProblemNum, RunCounter, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber)
+    rng(RunCounter);%This random seed setting is used to initialize the Problem-This must be identical for all peer algorithms to have a fair comparison.
+    Problem = BenchmarkGenerator(PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
+    rng(RunCounter);%Set a random seed for the optimizer based on the system clock
+    %% Initialiing Optimizer
+    clear Optimizer;
+    Optimizer.Dimension = Problem.Dimension;
+    Optimizer.PopulationSize = 5;
+    Optimizer.MaxCoordinate   = Problem.MaxCoordinate;
+    Optimizer.MinCoordinate = Problem.MinCoordinate;
+    Optimizer.DiversityPlus = 1;
+    Optimizer.x = 0.729843788;
+    Optimizer.c1 = 2.05;
+    Optimizer.c2 = 2.05;
+    Optimizer.ShiftSeverity = 1;
+    Optimizer.QuantumRadius = Optimizer.ShiftSeverity;
+    Optimizer.QuantumNumber = 5;
+    Optimizer.SwarmNumber = 10;
+    Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate-Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber) ^ (1 / Optimizer.Dimension)));
+    Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
+    for ii=1 : Optimizer.SwarmNumber
+        [Optimizer.pop(ii),Problem] = InitializingOptimizer(Optimizer.Dimension,Optimizer.MinCoordinate,Optimizer.MaxCoordinate,Optimizer.PopulationSize,Problem);
+    end
+    %% main loop
+    tic;
+    while 1
+        [Optimizer,Problem] = Optimization(Optimizer,Problem);
+        if Problem.RecentChange == 1%When an environmental change has happened
+            Problem.RecentChange = 0;
+            [Optimizer,Problem] = Reaction(Optimizer,Problem);
+            clc; disp(['Run number: ',num2str(RunCounter),'   Environment number: ',num2str(Problem.Environmentcounter), ' counter:', num2str(RunCounter), ' PROBLEM NUMBER: ', num2str(ProblemNum)]);
+            toc;
+            tic;
+        end
+        if Problem.FE >= Problem.MaxEvals%When termination criteria has been met
+            break;
+        end
+    end
+    CurrentError = Problem.CurrentError;
+end
+
+function WriteFile(OuputFile, OfflineError)
+    f = fopen(OuputFile, 'w');
     fprintf(f, '%f ', OfflineError);
     fclose(f);
+end
+
+function [OfflineError] = ReadFile(OuputFile)
+    OfflineError = str2double(split(fileread(OuputFile)));
+    OfflineError = OfflineError(1:end-1);
 end
