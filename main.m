@@ -66,7 +66,7 @@ if exist(DFile, 'file') ; delete(DFile); end
 diary(DFile);
 diary on;
 
-ParallelProblem = [];
+ParallelProblem = [1:4 6:14];
 IndependentProblem = [5];
 %% Input variables
 %********Benchmark parameters and Run number***
