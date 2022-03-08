@@ -5,14 +5,14 @@
 % ------------
 % Reference:
 % ------------
-%  
+%
 %  D. Yazdani et al.,
 %            "Benchmarking Continuous Dynamic Optimization: Survey and Generalized Test Suite,"
 %            IEEE Transactions on Cybernetics (2020).
-% 
+%
 %  D. Yazdani et al.,
-%            "Generalized Moving Peaks Benchmark," arXiv:2106.06174, (2021). 
-% 
+%            "Generalized Moving Peaks Benchmark," arXiv:2106.06174, (2021).
+%
 %  T. Blackwell and J. Branke,
 %            "Multiswarms, exclusion, and anti-convergence in dynamic environments"
 %            IEEE Transactions on Evolutionary Computation (2006).
@@ -25,24 +25,24 @@
 % environmental changes). Also note that mQSO does not access to a prior knowledge
 % about the shift severity value. The shift severity is learned in this code.
 %
-% 
+%
 % -------
 % Inputs:
 % -------
 %
-%    The Participants can set peak number, change frequency, dimension, 
+%    The Participants can set peak number, change frequency, dimension,
 %    and shift severity in lines 59-62 of "main.m" according to the
 %    competition instractions available in the following link:
-%                                
+%
 %                 https://www.danialyazdani.com/CEC-2022
-% 
+%
 %
 % ------------
 % Output:
 % ------------
-% 
+%
 % Offline error
-% 
+%
 % --------
 % License:
 % --------
@@ -53,96 +53,114 @@
 %         danial.yazdani AT yahoo dot com
 % Copyright notice: (c) 2021 Danial Yazdani
 %*********************************************************************************************************************
-DFileName = 'main.log';
-LogPathName = 'test';
-
-diary off;
-LogPath = fullfile('.', 'logs', LogPathName);
-if ~exist(LogPath, 'dir')
-    mkdir(LogPath)
-end
-DFile = fullfile(LogPath, DFileName);
-if exist(DFile, 'file') ; delete(DFile); end
-diary(DFile);
-diary on;
-
-ParallelProblem = [1:4 6:14];
-IndependentProblem = [5];
-%% Input variables
-%********Benchmark parameters and Run number***
-PeakNumbers = [5,	10,	25,	50,	100,	10,	10,	10,	10,	10,	10,	10,  1,  10];
-ChangeFrequencys = [5000,	5000,	5000,	5000,	5000,	2500,	1000,	500,	5000,	5000,	5000,	5000,  5000,  5000];
-Dimensions = [5,	5,	5,	5,	5,	5,	5,	5,	10,	20,	5,	5,  5,  2];
-ShiftSeveritys = [1,	1,	1,	1,	1,	1,	1,	1,	1,	1,	2,	5,   1,  1];
-
+%% Init variables
+CurrentSummary = Summary( ...
+...
+    'baseline', ... % LogPathName
+    'main.log', ... % DFileName
+    100, ... % EnvironmentNumber
+    31, ... % RunNumber
+    [1:2 6:14], ... % ParallelProblems
+    (3:5) ... % IndependentProblems
+);
+%% Init log file
+CurrentSummary.InitLogFile();
+%% Logs
 disp(['Start time: ', datestr(now)]);
+TAStart = tic;
 
-parfor index = 1:length(ParallelProblem)
-    ProblemNum = ParallelProblem(index);
-    ProblemRun(ProblemNum, PeakNumbers(ProblemNum), ChangeFrequencys(ProblemNum), Dimensions(ProblemNum), ShiftSeveritys(ProblemNum), 100, 31, false, LogPath);
+%% Problem Parallel
+parfor index = 1:length(CurrentSummary.ParallelProblems)
+    ProblemNum = CurrentSummary.ParallelProblems(index);
+    ProblemRun(ProblemNum, CurrentSummary, false);
 end
 
-for index = 1:length(IndependentProblem)
-    ProblemNum = IndependentProblem(index);
-    ProblemRun(ProblemNum, PeakNumbers(ProblemNum), ChangeFrequencys(ProblemNum), Dimensions(ProblemNum), ShiftSeveritys(ProblemNum), 100, 31, true, LogPath);
+%% Independent Run Parallel
+for index = 1:length(CurrentSummary.IndependentProblems)
+    ProblemNum = CurrentSummary.IndependentProblems(index);
+    ProblemRun(ProblemNum, CurrentSummary, true);
 end
 
-function ProblemRun(ProblemNum, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber, RunNumber, IfParallel, LogPath)
-    disp(['PROBLEM NUMBER: ', num2str(ProblemNum), ' Runnumber: ', num2str(RunNumber)]);
-    OuputFile = fullfile(LogPath, sprintf('F%d.dat', ProblemNum));
-    if exist(OuputFile, "file")
-        OfflineError = ReadFile(OuputFile);
-        if size(OfflineError, 1) ~= RunNumber
-            OfflineError = NaN(1, RunNumber);
-        end
-        disp(size(OfflineError, 1));
-    else
-        OfflineError = NaN(1, RunNumber);
-    end
+%% Logs
+disp(['End time: ', datestr(now)]);
+disp(['Total time: ', num2str(toc(TAStart))]);
+
+%% Function Definitions
+function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
+    PeakNumber = CurrentSummary.PeakNumbers(ProblemNum);
+    ChangeFrequency = CurrentSummary.ChangeFrequencys(ProblemNum);
+    Dimension = CurrentSummary.Dimensions(ProblemNum);
+    ShiftSeverity = CurrentSummary.ShiftSeveritys(ProblemNum);
+    EnvironmentNumber = CurrentSummary.EnvironmentNumber;
+    RunNumber = CurrentSummary.RunNumber;
+    disp(['Problem Number: ', num2str(ProblemNum), ' Runnumber: ', num2str(RunNumber)]);
+
     function UpdateOfflineError(x)
-        OfflineError(x(1)) = x(2);
-        WriteFile(OuputFile, OfflineError);
+        CurrentSummary.ProblemOfflineErrors(ProblemNum, x(1)) = mean(x(2));
+        CurrentSummary.ProblemElapsedTimes(ProblemNum, x(1)) = x(3);
+        CurrentSummary.WriteOfflineError(ProblemNum);
+        CurrentSummary.WriteElapsedTime(ProblemNum);
+        CurrentSummary.WriteSummary(ProblemNum);
+        CurrentSummary.WriteAllOfflineError(ProblemNum, x(1), x(2));
+        CurrentSummary.PlotAllOfflineError(ProblemNum, x(1), x(2));
         disp(['Offline Error Updated (Run: ', num2str(x(1)), ').']);
     end
+
     if IfParallel
         D = parallel.pool.DataQueue;
         D.afterEach(@(x) UpdateOfflineError(x));
-        W = WorkerObjWrapper(OfflineError);
-        parfor RunCounter=1 : RunNumber
+        W = WorkerObjWrapper(CurrentSummary.ProblemOfflineErrors);
+
+        parfor RunCounter = 1:RunNumber
             ErrorArray = W.Value;
+
             if ~isnan(ErrorArray(RunCounter))
                 disp(['Problem: ', num2str(ProblemNum), ' Run: ', num2str(RunCounter), sprintf('\t'), 'already finished.']);
                 continue;
             end
+
+            TStart = tic;
             CurrentError = IndependentRun(ProblemNum, RunCounter, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
-            send(D, [RunCounter, mean(CurrentError)]);
+            TEnd = toc(TStart);
+            send(D, [RunCounter, CurrentError, TEnd]);
         end
+
     else
-        for RunCounter=1 : RunNumber
-            if ~isnan(OfflineError(RunCounter))
+
+        for RunCounter = 1:RunNumber
+
+            if ~isnan(CurrentSummary.ProblemOfflineErrors(ProblemNum, RunCounter))
                 disp(['Problem: ', num2str(ProblemNum), ' Run: ', num2str(RunCounter), sprintf('\t'), 'already finished.']);
                 continue;
             end
+
+            TStart = tic;
             CurrentError = IndependentRun(ProblemNum, RunCounter, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
-            OfflineError(RunCounter) = mean(CurrentError);
-            WriteFile(OuputFile, OfflineError);
+            TEnd = toc(TStart);
+            CurrentSummary.ProblemElapsedTimes(ProblemNum, RunCounter) = TEnd;
+            CurrentSummary.ProblemOfflineErrors(ProblemNum, RunCounter) = mean(CurrentError);
+            CurrentSummary.WriteOfflineError(ProblemNum);
+            CurrentSummary.WriteElapsedTime(ProblemNum);
+            CurrentSummary.WriteSummary(ProblemNum);
+            CurrentSummary.WriteAllOfflineError(ProblemNum, RunCounter, CurrentError);
+            CurrentSummary.PlotAllOfflineError(ProblemNum, RunCounter, CurrentError);
         end
+
     end
-    E_o = [mean(OfflineError),median(OfflineError),std(OfflineError)/sqrt(RunNumber)];
-    close;clc;
+
+    E_o = [mean(OfflineError), median(OfflineError), std(OfflineError) / sqrt(RunNumber)];
     disp(['Offline error ==> ', ' Mean = ', num2str(E_o(1)), ', Median = ', num2str(E_o(2)), ', Standard Error = ', num2str(E_o(3))]);
-    WriteFile(OuputFile, OfflineError);
 end
 
 function [CurrentError] = IndependentRun(ProblemNum, RunCounter, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber)
-    rng(RunCounter);%This random seed setting is used to initialize the Problem-This must be identical for all peer algorithms to have a fair comparison.
+    rng(RunCounter); %This random seed setting is used to initialize the Problem-This must be identical for all peer algorithms to have a fair comparison.
     Problem = BenchmarkGenerator(PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
-    rng(RunCounter);%Set a random seed for the optimizer based on the system clock
+    rng(RunCounter); %Set a random seed for the optimizer based on the system clock
     %% Initialiing Optimizer
     clear Optimizer;
     Optimizer.Dimension = Problem.Dimension;
     Optimizer.PopulationSize = 5;
-    Optimizer.MaxCoordinate   = Problem.MaxCoordinate;
+    Optimizer.MaxCoordinate = Problem.MaxCoordinate;
     Optimizer.MinCoordinate = Problem.MinCoordinate;
     Optimizer.DiversityPlus = 1;
     Optimizer.x = 0.729843788;
@@ -152,36 +170,30 @@ function [CurrentError] = IndependentRun(ProblemNum, RunCounter, PeakNumber, Cha
     Optimizer.QuantumRadius = Optimizer.ShiftSeverity;
     Optimizer.QuantumNumber = 5;
     Optimizer.SwarmNumber = 10;
-    Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate-Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber) ^ (1 / Optimizer.Dimension)));
+    Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
     Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
-    for ii=1 : Optimizer.SwarmNumber
-        [Optimizer.pop(ii),Problem] = InitializingOptimizer(Optimizer.Dimension,Optimizer.MinCoordinate,Optimizer.MaxCoordinate,Optimizer.PopulationSize,Problem);
+
+    for ii = 1:Optimizer.SwarmNumber
+        [Optimizer.pop(ii), Problem] = InitializingOptimizer(Optimizer.Dimension, Optimizer.MinCoordinate, Optimizer.MaxCoordinate, Optimizer.PopulationSize, Problem);
     end
-    %% main loop
     tic;
+    %% main loop
     while 1
-        [Optimizer,Problem] = Optimization(Optimizer,Problem);
-        if Problem.RecentChange == 1%When an environmental change has happened
+        [Optimizer, Problem] = Optimization(Optimizer, Problem);
+
+        if Problem.RecentChange == 1 %When an environmental change has happened
             Problem.RecentChange = 0;
-            [Optimizer,Problem] = Reaction(Optimizer,Problem);
-            clc; disp(['Run number: ',num2str(RunCounter),'   Environment number: ',num2str(Problem.Environmentcounter), ' counter:', num2str(RunCounter), ' PROBLEM NUMBER: ', num2str(ProblemNum)]);
+            [Optimizer, Problem] = Reaction(Optimizer, Problem);
+            clc; disp(['Run number: ', num2str(RunCounter), '   Environment number: ', num2str(Problem.Environmentcounter), ' counter:', num2str(RunCounter), ' PROBLEM NUMBER: ', num2str(ProblemNum)]);
             toc;
             tic;
         end
-        if Problem.FE >= Problem.MaxEvals%When termination criteria has been met
+
+        if Problem.FE >= Problem.MaxEvals %When termination criteria has been met
             break;
         end
-    end
+
+    end    
+
     CurrentError = Problem.CurrentError;
-end
-
-function WriteFile(OuputFile, OfflineError)
-    f = fopen(OuputFile, 'w');
-    fprintf(f, '%f ', OfflineError);
-    fclose(f);
-end
-
-function [OfflineError] = ReadFile(OuputFile)
-    OfflineError = str2double(split(fileread(OuputFile)));
-    OfflineError = OfflineError(1:end-1);
 end
