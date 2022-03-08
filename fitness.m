@@ -79,7 +79,7 @@ for jj=1 : SolutionNumber
     else
         Problem.CurrentError(Problem.FE) =  SolutionError;
     end
-    if ~rem(Problem.FE , Problem.ChangeFrequency) && Problem.FE < Problem.MaxEvals %% æ¯ChangeFrequencyä»£æ”¹å˜ä¸€æ¬¡çŽ¯å¢ƒ
+    if ~rem(Problem.FE , Problem.ChangeFrequency) && Problem.FE < Problem.MaxEvals %% Ã¿ChangeFrequency´ú¸Ä±äÒ»´Î»·¾³
         Problem.Environmentcounter = Problem.Environmentcounter+1;
         Problem.RecentChange = 1;
     end
