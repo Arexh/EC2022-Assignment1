@@ -9,7 +9,7 @@
 %  D. Yazdani et al.,
 %            "Benchmarking Continuous Dynamic Optimization: Survey and Generalized Test Suite,"
 %            IEEE Transactions on Cybernetics (2020).
-%
+% 
 %  D. Yazdani et al.,
 %            "Generalized Moving Peaks Benchmark," arXiv:2106.06174, (2021).
 %
@@ -60,8 +60,8 @@ CurrentSummary = Summary( ...
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    [1:2 6:14], ... % ParallelProblems
-    (3:5) ... % IndependentProblems
+    [], ... % ParallelProblems
+    (1:14) ... % IndependentProblems
 );
 %% Init log file
 CurrentSummary.InitLogFile();
@@ -96,13 +96,13 @@ function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
     disp(['Problem Number: ', num2str(ProblemNum), ' Runnumber: ', num2str(RunNumber)]);
 
     function UpdateOfflineError(x)
-        CurrentSummary.ProblemOfflineErrors(ProblemNum, x(1)) = mean(x(2));
-        CurrentSummary.ProblemElapsedTimes(ProblemNum, x(1)) = x(3);
+        CurrentSummary.ProblemOfflineErrors(ProblemNum, x(1)) = mean(x(3:end));
+        CurrentSummary.ProblemElapsedTimes(ProblemNum, x(1)) = x(2);
         CurrentSummary.WriteOfflineError(ProblemNum);
         CurrentSummary.WriteElapsedTime(ProblemNum);
         CurrentSummary.WriteSummary(ProblemNum);
-        CurrentSummary.WriteAllOfflineError(ProblemNum, x(1), x(2));
-        CurrentSummary.PlotAllOfflineError(ProblemNum, x(1), x(2));
+        CurrentSummary.WriteAllOfflineError(ProblemNum, x(1), x(3:end));
+        CurrentSummary.PlotAllOfflineError(ProblemNum, x(1), x(3:end));
         disp(['Offline Error Updated (Run: ', num2str(x(1)), ').']);
     end
 
@@ -122,7 +122,7 @@ function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
             TStart = tic;
             CurrentError = IndependentRun(ProblemNum, RunCounter, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
             TEnd = toc(TStart);
-            send(D, [RunCounter, CurrentError, TEnd]);
+            send(D, [RunCounter, TEnd, CurrentError]);
         end
 
     else
@@ -148,8 +148,6 @@ function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
 
     end
 
-    E_o = [mean(OfflineError), median(OfflineError), std(OfflineError) / sqrt(RunNumber)];
-    disp(['Offline error ==> ', ' Mean = ', num2str(E_o(1)), ', Median = ', num2str(E_o(2)), ', Standard Error = ', num2str(E_o(3))]);
 end
 
 function [CurrentError] = IndependentRun(ProblemNum, RunCounter, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber)

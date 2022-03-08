@@ -42,6 +42,10 @@ classdef Summary
             obj.createSubFolder('summary');
             obj.createSubFolder('all_offline_error');
             obj.createSubFolder('all_offline_error_plot');
+            for index = 1:obj.ProblemTotalNum
+                obj.createSubFolder(fullfile('all_offline_error', sprintf('F%d', index)));
+                obj.createSubFolder(fullfile('all_offline_error_plot', sprintf('F%d', index)));
+            end
             if exist(obj.DFile, 'file'); delete(obj.DFile); end
             diary(obj.DFile);
             diary on;
@@ -94,11 +98,11 @@ classdef Summary
         end
 
         function [AllOfflineErrorFile] = GetAllOfflineErrorFile(obj, ProblemNum, RunCounter)
-            AllOfflineErrorFile = fullfile(obj.LogPath, 'all_offline_error', sprintf('F%d_%d.log', ProblemNum, RunCounter));
+            AllOfflineErrorFile = fullfile(obj.LogPath, 'all_offline_error', sprintf('F%d', ProblemNum), sprintf('%d.dat', RunCounter));
         end
 
         function [AllOfflineErrorPlotFile] = GetAllOfflineErrorPlotFile(obj, ProblemNum, RunCounter)
-            AllOfflineErrorPlotFile = fullfile(obj.LogPath, 'all_offline_error_plot', sprintf('F%d_%d', ProblemNum, RunCounter));
+            AllOfflineErrorPlotFile = fullfile(obj.LogPath, 'all_offline_error_plot', sprintf('F%d', ProblemNum), sprintf('%d', RunCounter));
         end
 
         function [OfflineError] = ReadProblemOfflineError(obj, ProblemNum)
@@ -149,7 +153,7 @@ classdef Summary
             fprintf(f, 'Worst: %f\n', max(NotNaNElements));
             fprintf(f, 'Average: %f\n', mean(NotNaNElements));
             fprintf(f, 'Median: %f\n', median(NotNaNElements));
-            fprintf(f, 'Standard Deviation: %f\n', std(NotNaNElements));
+            fprintf(f, 'Standard Deviation: %f\n', std(NotNaNElements) / sqrt(obj.RunNumber));
             fprintf(f, 'Average Time for One Run: %f\n', mean(obj.ProblemElapsedTimes(ProblemNum, ~isnan(obj.ProblemElapsedTimes(ProblemNum, :)))));
             fprintf(f, '--------------------- Problem %d ---------------------\n', ProblemNum);
             fprintf(f, '\n');
