@@ -1,0 +1,7 @@
+F8 AVERAGE
+21.921546 => 21.308493
+
+CONTENT
+Optimizer.QuantumRadius = Optimizer.ShiftSeverity;
+=>
+Optimizer.QuantumRadius = Optimizer.Dimension * Optimizer.Dimension * Optimizer.ShiftSeverity;
