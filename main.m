@@ -56,12 +56,11 @@
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    'baseline', ... % LogPathName
+    'baseline_8', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    [], ... % ParallelProblems
-    (1:14) ... % IndependentProblems
+    (8) ... % IndependentProblems
 );
 %% Init log file
 CurrentSummary.InitLogFile();
@@ -69,17 +68,14 @@ CurrentSummary.InitLogFile();
 disp(['Start time: ', datestr(now)]);
 TAStart = tic;
 
-%% Problem Parallel
-parfor index = 1:length(CurrentSummary.ParallelProblems)
-    ProblemNum = CurrentSummary.ParallelProblems(index);
-    ProblemRun(ProblemNum, CurrentSummary, false);
-end
-
 %% Independent Run Parallel
 for index = 1:length(CurrentSummary.IndependentProblems)
     ProblemNum = CurrentSummary.IndependentProblems(index);
     ProblemRun(ProblemNum, CurrentSummary, true);
 end
+
+%% Finish
+CurrentSummary.Finish();
 
 %% Logs
 disp(['End time: ', datestr(now)]);
@@ -109,7 +105,7 @@ function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
     if IfParallel
         D = parallel.pool.DataQueue;
         D.afterEach(@(x) UpdateOfflineError(x));
-        W = WorkerObjWrapper(CurrentSummary.ProblemOfflineErrors);
+        W = WorkerObjWrapper(CurrentSummary.ProblemOfflineErrors(ProblemNum, :));
 
         parfor RunCounter = 1:RunNumber
             ErrorArray = W.Value;
