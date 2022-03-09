@@ -75,7 +75,7 @@ TAStart = tic;
 %% Independent Run Parallel
 for index = 1:length(CurrentSummary.IndependentProblems)
     ProblemNum = CurrentSummary.IndependentProblems(index);
-    ProblemRun(ProblemNum, CurrentSummary, false);
+    ProblemRun(ProblemNum, CurrentSummary, true);
 end
 
 %% Finish
