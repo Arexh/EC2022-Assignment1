@@ -1,0 +1,14 @@
+F8 AVERAGE
+13.958847 => 12.587933
+F13 AVERAGE
+12.808811 => 11.297886
+
+CHANGE CONTENT
+
+Optimizer.QuantumRadius = Optimizer.Dimension * Optimizer.Dimension * Optimizer.ShiftSeverity;
+Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
+
+=>
+
+Optimizer.QuantumRadius = Optimizer.ShiftSeverity / Optimizer.Dimension;
+Optimizer.ExclusionLimit = 0.05 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
