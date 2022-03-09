@@ -8,6 +8,9 @@ classdef Summary < handle
         IndependentProblems;
         ProblemOfflineErrors;
         ProblemElapsedTimes;
+        Rerun;
+        SimpleLog;
+        OptimizerLog;
     end
 
     properties (Constant = true)
@@ -22,7 +25,8 @@ classdef Summary < handle
 
         function obj = Summary(LogPathName, ...
                 DFileName, EnvironmentNumber, ...
-                RunNumber, IndependentProblems) %构造函数
+                RunNumber, IndependentProblems, ...
+                Rerun, SimpleLog) %构造函数
             obj.LogPath = fullfile('.', 'logs', LogPathName);
             obj.DFile = fullfile(obj.LogPath, DFileName);
             obj.EnvironmentNumber = EnvironmentNumber;
@@ -30,6 +34,9 @@ classdef Summary < handle
             obj.IndependentProblems = IndependentProblems;
             obj.ProblemOfflineErrors = NaN(obj.ProblemTotalNum, RunNumber);
             obj.ProblemElapsedTimes = NaN(obj.ProblemTotalNum, RunNumber);
+            obj.Rerun = Rerun;
+            obj.SimpleLog = SimpleLog;
+            obj.OptimizerLog = false;
         end
 
         function InitLogFile(obj)
@@ -158,6 +165,9 @@ classdef Summary < handle
             end
 
             fprintf(f, 'Approx Total Time: %f', sum(obj.ProblemElapsedTimes(~isnan(obj.ProblemElapsedTimes))) / 8);
+            fprintf(f, '\n--------------------- Optimizer ---------------------\n');
+            % fprintf(f, sprintf('%s', obj.Optimizer));
+            fprintf(f, '\n--------------------- Optimizer ---------------------\n');
             fclose(f);
         end
 
@@ -189,6 +199,16 @@ classdef Summary < handle
                 std(NonNaNErrors) / sqrt(obj.RunNumber), ...
                 mean(NonNaNTimes), sum(NonNaNTimes) / 8, ...
                 ProblemNum);
+        end
+
+        function WriteLogs(obj, ProblemNum, RunCounter, CurrentError)
+            obj.WriteOfflineError(ProblemNum);
+            obj.WriteElapsedTime(ProblemNum);
+            obj.WriteSummary(ProblemNum);
+            obj.PlotAllOfflineError(ProblemNum, RunCounter, CurrentError);
+            if ~obj.SimpleLog
+                obj.WriteAllOfflineError(ProblemNum, RunCounter, CurrentError);
+            end
         end
 
     end
