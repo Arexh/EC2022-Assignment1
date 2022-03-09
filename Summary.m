@@ -56,8 +56,10 @@ classdef Summary < handle
             if exist(obj.DFile, 'file'); delete(obj.DFile); end
             diary(obj.DFile);
             diary on;
-            obj.ReadOfflineError();
-            obj.ReadElapsedTime();
+            if ~obj.Rerun
+                obj.ReadOfflineError();
+                obj.ReadElapsedTime();
+            end
         end
 
         function Finish(obj)

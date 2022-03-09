@@ -56,13 +56,13 @@
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    '2_pop_20', ... % LogPathName
+    '2_pop_10_sw_5', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    (8), ... % IndependentProblems
+    [1:14], ... % IndependentProblems
     true, ... % Rerun
-    true ... % SimpleLog
+    false ... % SimpleLog
 );
 disp(CurrentSummary);
 %% Init log file
