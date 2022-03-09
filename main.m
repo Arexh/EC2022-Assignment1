@@ -56,13 +56,13 @@
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    '5_hyper', ... % LogPathName
+    '6_simple_de', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    (13), ... % IndependentProblems
+    (8), ... % IndependentProblems
     true, ... % Rerun
-    false ... % SimpleLog
+    true ... % SimpleLog
 );
 disp(CurrentSummary);
 %% Init log file
@@ -147,7 +147,7 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     EnvironmentNumber = CurrentSummary.EnvironmentNumber;
     rng(RunCounter); %This random seed setting is used to initialize the Problem-This must be identical for all peer algorithms to have a fair comparison.
     Problem = BenchmarkGenerator(PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
-    rng(RunCounter); %Set a random seed for the optimizer based on the system clock
+    rng('shuffle'); %Set a random seed for the optimizer based on the system clock
     %% Initialiing Optimizer
     clear Optimizer;
     Optimizer.Dimension = Problem.Dimension;
@@ -160,8 +160,8 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     Optimizer.c2 = 2.05;
     Optimizer.ShiftSeverity = 1;
     Optimizer.QuantumRadius = Optimizer.ShiftSeverity / Optimizer.Dimension;
-    Optimizer.QuantumNumber = 5;
-    Optimizer.SwarmNumber = 5;
+    Optimizer.QuantumNumber = 1;
+    Optimizer.SwarmNumber = 1;
     Optimizer.ExclusionLimit = 0.05 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
     Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
     if ~CurrentSummary.OptimizerLog
