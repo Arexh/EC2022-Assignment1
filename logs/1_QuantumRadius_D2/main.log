@@ -5768,22 +5768,26 @@ Run number: 27   Environment number: 66 counter:27 PROBLEM NUMBER: 8
 Elapsed time is 0.134978 seconds.
 Run number: 27   Environment number: 67 counter:27 PROBLEM NUMBER: 8
 Elapsed time is 0.126396 seconds.
-Run number: 27   Environment number: 68 counter:27 PROBLEM NUMBER: 8
-Elapsed time is 0.132098 seconds.
-Run number: 27   Environment number: 69 counter:27 PROBLEM NUMBER: 8
-Elapsed time is 0.128209 seconds.
-Run number: 29   Environment number: 55 counter:29 PROBLEM NUMBER: 8
-Elapsed time is 0.134495 seconds.
-Run number: 29   Environment number: 56 counter:29 PROBLEM NUMBER: 8
-Elapsed time is 0.130335 seconds.
-Run number: 29   Environment number: 57 counter:29 PROBLEM NUMBER: 8
-Elapsed time is 0.130364 seconds.
-Run number: 29   Environment number: 58 counter:29 PROBLEM NUMBER: 8
-Elapsed time is 0.123227 seconds.
-Run number: 29   Environment number: 59 counter:29 PROBLEM NUMBER: 8
-Elapsed time is 0.161193 seconds.
-Run number: 29   Environment number: 60 counter:29 PROBLEM NUMBER: 8
-Elapsed time is 0.124921 seconds.
+Run number: 27   Environment number: 68 counter:27 Pmain
+  <a href="matlab:helpPopup Summary" style="font-weight:bold">Summary</a> with properties:
+
+                 LogPath: '.\logs\2_pop_20'
+                   DFile: '.\logs\2_pop_20\main.log'
+       EnvironmentNumber: 100
+               RunNumber: 31
+     IndependentProblems: 8
+    ProblemOfflineErrors: [14×31 double]
+     ProblemElapsedTimes: [14×31 double]
+                   Rerun: 1
+               SimpleLog: 1
+            OptimizerLog: 0
+             PeakNumbers: [5 10 25 50 100 10 10 10 10 10 10 10 1 10]
+        ChangeFrequencys: [5000 5000 5000 5000 5000 2500 1000 500 5000 5000 5000 5000 5000 5000]
+              Dimensions: [5 5 5 5 5 5 5 5 10 20 5 5 5 2]
+          ShiftSeveritys: [1 1 1 1 1 1 1 1 1 1 2 5 1 1]
+         ProblemTotalNum: 14
+
+921 seconds.
 Run number: 29   Environment number: 61 counter:29 PROBLEM NUMBER: 8
 Elapsed time is 0.149200 seconds.
 Run number: 29   Environment number: 62 counter:29 PROBLEM NUMBER: 8

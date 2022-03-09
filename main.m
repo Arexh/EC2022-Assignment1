@@ -56,7 +56,7 @@
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    '1. QuantumRadius^2', ... % LogPathName
+    '2_pop_20', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
@@ -151,7 +151,7 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     %% Initialiing Optimizer
     clear Optimizer;
     Optimizer.Dimension = Problem.Dimension;
-    Optimizer.PopulationSize = 5;
+    Optimizer.PopulationSize = 10;
     Optimizer.MaxCoordinate = Problem.MaxCoordinate;
     Optimizer.MinCoordinate = Problem.MinCoordinate;
     Optimizer.DiversityPlus = 1;
@@ -161,7 +161,7 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     Optimizer.ShiftSeverity = 1;
     Optimizer.QuantumRadius = Optimizer.Dimension * Optimizer.Dimension * Optimizer.ShiftSeverity;
     Optimizer.QuantumNumber = 5;
-    Optimizer.SwarmNumber = 10;
+    Optimizer.SwarmNumber = 5;
     Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
     Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
     if ~CurrentSummary.OptimizerLog
