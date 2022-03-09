@@ -56,12 +56,15 @@
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    'baseline_8', ... % LogPathName
+    '1. QuantumRadius^2', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    (8) ... % IndependentProblems
+    (8), ... % IndependentProblems
+    true, ... % Rerun
+    true ... % SimpleLog
 );
+disp(CurrentSummary);
 %% Init log file
 CurrentSummary.InitLogFile();
 %% Logs
@@ -83,22 +86,16 @@ disp(['Total time: ', num2str(toc(TAStart))]);
 
 %% Function Definitions
 function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
-    PeakNumber = CurrentSummary.PeakNumbers(ProblemNum);
-    ChangeFrequency = CurrentSummary.ChangeFrequencys(ProblemNum);
-    Dimension = CurrentSummary.Dimensions(ProblemNum);
-    ShiftSeverity = CurrentSummary.ShiftSeveritys(ProblemNum);
-    EnvironmentNumber = CurrentSummary.EnvironmentNumber;
     RunNumber = CurrentSummary.RunNumber;
     disp(['Problem Number: ', num2str(ProblemNum), ' Runnumber: ', num2str(RunNumber)]);
 
     function UpdateOfflineError(x)
-        CurrentSummary.ProblemOfflineErrors(ProblemNum, x(1)) = mean(x(3:end));
-        CurrentSummary.ProblemElapsedTimes(ProblemNum, x(1)) = x(2);
-        CurrentSummary.WriteOfflineError(ProblemNum);
-        CurrentSummary.WriteElapsedTime(ProblemNum);
-        CurrentSummary.WriteSummary(ProblemNum);
-        CurrentSummary.WriteAllOfflineError(ProblemNum, x(1), x(3:end));
-        CurrentSummary.PlotAllOfflineError(ProblemNum, x(1), x(3:end));
+        RunCounter = x(1);
+        ElapsedTime = x(2);
+        CurrentError = x(3:end);
+        CurrentSummary.ProblemOfflineErrors(ProblemNum, RunCounter) = mean(CurrentError);
+        CurrentSummary.ProblemElapsedTimes(ProblemNum, RunCounter) = ElapsedTime;
+        CurrentSummary.WriteLogs(ProblemNum, RunCounter, CurrentError);
         disp(['Offline Error Updated (Run: ', num2str(x(1)), ').']);
     end
 
@@ -110,13 +107,13 @@ function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
         parfor RunCounter = 1:RunNumber
             ErrorArray = W.Value;
 
-            if ~isnan(ErrorArray(RunCounter))
+            if ~isnan(ErrorArray(RunCounter)) && ~CurrentSummary.Rerun
                 disp(['Problem: ', num2str(ProblemNum), ' Run: ', num2str(RunCounter), sprintf('\t'), 'already finished.']);
                 continue;
             end
 
             TStart = tic;
-            CurrentError = IndependentRun(ProblemNum, RunCounter, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
+            CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary);
             TEnd = toc(TStart);
             send(D, [RunCounter, TEnd, CurrentError]);
         end
@@ -131,22 +128,23 @@ function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
             end
 
             TStart = tic;
-            CurrentError = IndependentRun(ProblemNum, RunCounter, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
+            CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary);
             TEnd = toc(TStart);
             CurrentSummary.ProblemElapsedTimes(ProblemNum, RunCounter) = TEnd;
             CurrentSummary.ProblemOfflineErrors(ProblemNum, RunCounter) = mean(CurrentError);
-            CurrentSummary.WriteOfflineError(ProblemNum);
-            CurrentSummary.WriteElapsedTime(ProblemNum);
-            CurrentSummary.WriteSummary(ProblemNum);
-            CurrentSummary.WriteAllOfflineError(ProblemNum, RunCounter, CurrentError);
-            CurrentSummary.PlotAllOfflineError(ProblemNum, RunCounter, CurrentError);
+            CurrentSummary.WriteLogs(ProblemNum, RunCounter, CurrentError);
         end
 
     end
 
 end
 
-function [CurrentError] = IndependentRun(ProblemNum, RunCounter, PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber)
+function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
+    PeakNumber = CurrentSummary.PeakNumbers(ProblemNum);
+    ChangeFrequency = CurrentSummary.ChangeFrequencys(ProblemNum);
+    Dimension = CurrentSummary.Dimensions(ProblemNum);
+    ShiftSeverity = CurrentSummary.ShiftSeveritys(ProblemNum);
+    EnvironmentNumber = CurrentSummary.EnvironmentNumber;
     rng(RunCounter); %This random seed setting is used to initialize the Problem-This must be identical for all peer algorithms to have a fair comparison.
     Problem = BenchmarkGenerator(PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
     rng(RunCounter); %Set a random seed for the optimizer based on the system clock
@@ -161,11 +159,15 @@ function [CurrentError] = IndependentRun(ProblemNum, RunCounter, PeakNumber, Cha
     Optimizer.c1 = 2.05;
     Optimizer.c2 = 2.05;
     Optimizer.ShiftSeverity = 1;
-    Optimizer.QuantumRadius = Optimizer.ShiftSeverity;
+    Optimizer.QuantumRadius = Optimizer.Dimension * Optimizer.Dimension * Optimizer.ShiftSeverity;
     Optimizer.QuantumNumber = 5;
     Optimizer.SwarmNumber = 10;
     Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
     Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
+    if ~CurrentSummary.OptimizerLog
+        disp(Optimizer);
+    end
+    CurrentSummary.OptimizerLog = true;
 
     for ii = 1:Optimizer.SwarmNumber
         [Optimizer.pop(ii), Problem] = InitializingOptimizer(Optimizer.Dimension, Optimizer.MinCoordinate, Optimizer.MaxCoordinate, Optimizer.PopulationSize, Problem);
