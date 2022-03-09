@@ -3,6 +3,7 @@
 %Last Edited: December 06, 2021
 %
 % ------------
+
 % Reference:
 % ------------
 %
@@ -56,13 +57,13 @@
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    '2_pop_10_sw_5', ... % LogPathName
+    '4_de', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    [1:14], ... % IndependentProblems
+    [8], ... % IndependentProblems
     true, ... % Rerun
-    false ... % SimpleLog
+    true ... % SimpleLog
 );
 disp(CurrentSummary);
 %% Init log file
@@ -74,7 +75,7 @@ TAStart = tic;
 %% Independent Run Parallel
 for index = 1:length(CurrentSummary.IndependentProblems)
     ProblemNum = CurrentSummary.IndependentProblems(index);
-    ProblemRun(ProblemNum, CurrentSummary, true);
+    ProblemRun(ProblemNum, CurrentSummary, false);
 end
 
 %% Finish
