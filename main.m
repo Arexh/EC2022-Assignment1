@@ -53,16 +53,18 @@
 %         danial.yazdani AT yahoo dot com
 % Copyright notice: (c) 2021 Danial Yazdani
 %*********************************************************************************************************************
+%% Sub Folder
+addpath('./ThirdParty/WorkerObjWrapper');
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    '5_hyper', ... % LogPathName
+    'baseline', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    (13), ... % IndependentProblems
+    (8), ... % IndependentProblems
     true, ... % Rerun
-    false ... % SimpleLog
+    true ... % SimpleLog
 );
 disp(CurrentSummary);
 %% Init log file
@@ -147,11 +149,11 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     EnvironmentNumber = CurrentSummary.EnvironmentNumber;
     rng(RunCounter); %This random seed setting is used to initialize the Problem-This must be identical for all peer algorithms to have a fair comparison.
     Problem = BenchmarkGenerator(PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
-    rng(RunCounter); %Set a random seed for the optimizer based on the system clock
+    rng('shuffle'); %Set a random seed for the optimizer based on the system clock
     %% Initialiing Optimizer
     clear Optimizer;
     Optimizer.Dimension = Problem.Dimension;
-    Optimizer.PopulationSize = 10;
+    Optimizer.PopulationSize = 5;
     Optimizer.MaxCoordinate = Problem.MaxCoordinate;
     Optimizer.MinCoordinate = Problem.MinCoordinate;
     Optimizer.DiversityPlus = 1;
@@ -159,8 +161,8 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     Optimizer.c1 = 2.05;
     Optimizer.c2 = 2.05;
     Optimizer.ShiftSeverity = 1;
-    Optimizer.QuantumRadius = Optimizer.Dimension * Optimizer.Dimension * Optimizer.ShiftSeverity;
-    Optimizer.QuantumNumber = 5;
+    Optimizer.QuantumRadius = Optimizer.ShiftSeverity;
+    Optimizer.QuantumNumber = 10;
     Optimizer.SwarmNumber = 5;
     Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
     Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
