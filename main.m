@@ -58,11 +58,11 @@ addpath('./ThirdParty/WorkerObjWrapper');
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    'my-PSO', ... % LogPathName
+    'my-PSO-5(15+3)', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    (8), ... % IndependentProblems
+    (13), ... % IndependentProblems
     true, ... % Rerun
     true ... % SimpleLog
 );
@@ -153,7 +153,7 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     %% Initialiing Optimizer
     clear Optimizer;
     Optimizer.Dimension = Problem.Dimension;
-    Optimizer.PopulationSize = 10;
+    Optimizer.PopulationSize = 15;
     Optimizer.MaxCoordinate = Problem.MaxCoordinate;
     Optimizer.MinCoordinate = Problem.MinCoordinate;
     Optimizer.DiversityPlus = 1;
@@ -162,7 +162,7 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     Optimizer.c2 = 2.05;
     Optimizer.ShiftSeverity = 1;
     Optimizer.QuantumRadius = Optimizer.Dimension * Optimizer.Dimension * Optimizer.ShiftSeverity;
-    Optimizer.QuantumNumber = 5;
+    Optimizer.QuantumNumber = 3;
     Optimizer.SwarmNumber = 5;
     Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
     Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
