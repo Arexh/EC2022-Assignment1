@@ -159,10 +159,10 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     Optimizer.c1 = 2.05;
     Optimizer.c2 = 2.05;
     Optimizer.ShiftSeverity = 1;
-    Optimizer.QuantumRadius = Optimizer.ShiftSeverity / Optimizer.Dimension;
+    Optimizer.QuantumRadius = Optimizer.Dimension * Optimizer.Dimension * Optimizer.ShiftSeverity;
     Optimizer.QuantumNumber = 5;
     Optimizer.SwarmNumber = 5;
-    Optimizer.ExclusionLimit = 0.05 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
+    Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
     Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
     if ~CurrentSummary.OptimizerLog
         disp(Optimizer);
