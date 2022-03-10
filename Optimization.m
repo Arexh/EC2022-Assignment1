@@ -37,8 +37,9 @@ function [Optimizer, Problem] = Optimization(Optimizer,Problem)
         [OffspringFitness, Problem] = fitness(Offspring, Problem);
         if Problem.RecentChange == 1 ; return; end
         %% Elite Selection
-        if OffspringFitness(1) > Optimizer.pop(1).FitnessValue(1)
+        if OffspringFitness(1) > Optimizer.pop(1).FitnessValue(i)
             Optimizer.pop(1).X(i, :) = Offspring;
+            Optimizer.pop(1).FitnessValue(i) = OffspringFitness(1);
         end
     end
 end

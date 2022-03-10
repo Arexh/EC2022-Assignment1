@@ -147,11 +147,11 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     EnvironmentNumber = CurrentSummary.EnvironmentNumber;
     rng(RunCounter); %This random seed setting is used to initialize the Problem-This must be identical for all peer algorithms to have a fair comparison.
     Problem = BenchmarkGenerator(PeakNumber, ChangeFrequency, Dimension, ShiftSeverity, EnvironmentNumber);
-    rng('shuffle'); %Set a random seed for the optimizer based on the system clock
+    rng(RunCounter); %Set a random seed for the optimizer based on the system clock
     %% Initialiing Optimizer
     clear Optimizer;
     Optimizer.Dimension = Problem.Dimension;
-    Optimizer.PopulationSize = 10;
+    Optimizer.PopulationSize = 50;
     Optimizer.MaxCoordinate = Problem.MaxCoordinate;
     Optimizer.MinCoordinate = Problem.MinCoordinate;
     Optimizer.DiversityPlus = 1;
