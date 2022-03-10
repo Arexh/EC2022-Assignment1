@@ -1,13 +1,130 @@
+--------------------- Problem 1 ---------------------
+Best: 7.801928
+Worst: 17.315616
+Average: 12.335343
+Median: 12.313517
+Standard Deviation: 0.425560
+Average Time: 82.821836
+Approx Total Time (Parallel): 320.934616
+--------------------- Problem 1 ---------------------
+--------------------- Problem 2 ---------------------
+Best: 9.849326
+Worst: 17.990367
+Average: 13.615313
+Median: 13.472130
+Standard Deviation: 0.393303
+Average Time: 153.896526
+Approx Total Time (Parallel): 596.349037
+--------------------- Problem 2 ---------------------
+--------------------- Problem 3 ---------------------
+Best: 9.424629
+Worst: 19.063111
+Average: 14.166145
+Median: 14.281131
+Standard Deviation: 0.458898
+Average Time: 361.755839
+Approx Total Time (Parallel): 1401.803875
+--------------------- Problem 3 ---------------------
+--------------------- Problem 4 ---------------------
+Best: 9.809125
+Worst: 19.089950
+Average: 14.147804
+Median: 13.862259
+Standard Deviation: 0.381469
+Average Time: 705.665089
+Approx Total Time (Parallel): 2734.452221
+--------------------- Problem 4 ---------------------
+--------------------- Problem 5 ---------------------
+Best: 9.490453
+Worst: 17.177473
+Average: 12.822002
+Median: 12.479055
+Standard Deviation: 0.288516
+Average Time: 1385.676751
+Approx Total Time (Parallel): 5369.497409
+--------------------- Problem 5 ---------------------
+--------------------- Problem 6 ---------------------
+Best: 9.713006
+Worst: 21.349220
+Average: 14.068670
+Median: 13.651373
+Standard Deviation: 0.423903
+Average Time: 77.045183
+Approx Total Time (Parallel): 298.550085
+--------------------- Problem 6 ---------------------
+--------------------- Problem 7 ---------------------
+Best: 10.107538
+Worst: 24.177654
+Average: 16.946255
+Median: 16.733390
+Standard Deviation: 0.583390
+Average Time: 30.940418
+Approx Total Time (Parallel): 119.894119
+--------------------- Problem 7 ---------------------
 --------------------- Problem 8 ---------------------
-Best: 15.712642
-Worst: 35.060099
-Average: 24.133737
-Median: 22.898354
-Standard Deviation: 0.808420
-Average Time: 16.544386
-Approx Total Time (Parallel): 64.109495
+Best: 16.300611
+Worst: 37.459124
+Average: 23.406013
+Median: 23.004078
+Standard Deviation: 0.886446
+Average Time: 15.511597
+Approx Total Time (Parallel): 60.107437
 --------------------- Problem 8 ---------------------
-Approx Total Time: 64.109495
+--------------------- Problem 9 ---------------------
+Best: 50.989495
+Worst: 129.940121
+Average: 78.114903
+Median: 76.891331
+Standard Deviation: 3.561634
+Average Time: 161.519196
+Approx Total Time (Parallel): 625.886884
+--------------------- Problem 9 ---------------------
+--------------------- Problem 10 ---------------------
+Best: 380.078092
+Worst: 617.206751
+Average: 486.793261
+Median: 482.988984
+Standard Deviation: 11.731371
+Average Time: 185.244998
+Approx Total Time (Parallel): 717.824367
+--------------------- Problem 10 ---------------------
+--------------------- Problem 11 ---------------------
+Best: 10.624723
+Worst: 22.209376
+Average: 16.486536
+Median: 16.233078
+Standard Deviation: 0.406279
+Average Time: 152.524830
+Approx Total Time (Parallel): 591.033717
+--------------------- Problem 11 ---------------------
+--------------------- Problem 12 ---------------------
+Best: 18.860880
+Worst: 27.414191
+Average: 23.978221
+Median: 25.060885
+Standard Deviation: 0.455962
+Average Time: 150.685618
+Approx Total Time (Parallel): 583.906772
+--------------------- Problem 12 ---------------------
+--------------------- Problem 13 ---------------------
+Best: 11.951306
+Worst: 44.818511
+Average: 25.175013
+Median: 23.516196
+Standard Deviation: 1.432233
+Average Time: 25.247689
+Approx Total Time (Parallel): 97.834796
+--------------------- Problem 13 ---------------------
+--------------------- Problem 14 ---------------------
+Best: 1.569266
+Worst: 3.455047
+Average: 2.317367
+Median: 2.201624
+Standard Deviation: 0.078122
+Average Time: 142.687252
+Approx Total Time (Parallel): 552.913101
+--------------------- Problem 14 ---------------------
+Approx Total Time: 14070.988437
 --------------------- Optimizer ---------------------
 
 --------------------- Optimizer ---------------------

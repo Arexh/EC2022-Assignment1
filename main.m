@@ -62,7 +62,7 @@ CurrentSummary = Summary( ...
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    (8), ... % IndependentProblems
+    (1:14), ... % IndependentProblems
     true, ... % Rerun
     true ... % SimpleLog
 );
