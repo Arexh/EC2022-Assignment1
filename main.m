@@ -58,11 +58,11 @@ addpath('./ThirdParty/WorkerObjWrapper');
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    'my-PSO-5(15+3)', ... % LogPathName
+    'PSO-5(15+3)-median', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    (13), ... % IndependentProblems
+    (1:14), ... % IndependentProblems
     true, ... % Rerun
     true ... % SimpleLog
 );
