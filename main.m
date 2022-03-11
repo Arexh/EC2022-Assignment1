@@ -58,11 +58,11 @@ addpath('./ThirdParty/WorkerObjWrapper');
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    'mQSO-5(15+3)-median', ... % LogPathName
+    'random-walk', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    (1:14), ... % IndependentProblems
+    (8), ... % IndependentProblems
     true, ... % Rerun
     true ... % SimpleLog
 );
