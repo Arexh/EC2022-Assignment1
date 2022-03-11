@@ -58,7 +58,7 @@ addpath('./ThirdParty/WorkerObjWrapper');
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    'mQSO-5(15+3)-median-Qnorm', ... % LogPathName
+    'mQSO-5(15+3)-median-Qnorm-lazy', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
@@ -162,10 +162,14 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     Optimizer.c2 = 2.05;
     Optimizer.ShiftSeverity = 1;
     Optimizer.QuantumRadius = Optimizer.Dimension * Optimizer.Dimension * Optimizer.ShiftSeverity;
-    Optimizer.QuantumNumber = 3;
+    Optimizer.QuantumNumber = 15;
     Optimizer.SwarmNumber = 5;
     Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
     Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
+    Optimizer.ReactionNumber = 10;
+    Optimizer.ReactionCount = Optimizer.ReactionNumber;
+    Optimizer.GenerationNumber = 1;
+    Optimizer.PreviousEnvironmentNumber = Optimizer.GenerationNumber;
     if ~CurrentSummary.OptimizerLog
         disp(Optimizer);
     end
@@ -181,6 +185,7 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
 
         if Problem.RecentChange == 1 %When an environmental change has happened
             Problem.RecentChange = 0;
+            Optimizer.ReactionCount = Optimizer.ReactionNumber;
             [Optimizer, Problem] = Reaction(Optimizer, Problem);
             clc; disp(['Run number: ', num2str(RunCounter), '   Environment number: ', num2str(Problem.Environmentcounter), ' counter:', num2str(RunCounter), ' PROBLEM NUMBER: ', num2str(ProblemNum)]);
             toc;
@@ -190,6 +195,8 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
         if Problem.FE >= Problem.MaxEvals %When termination criteria has been met
             break;
         end
+
+        Optimizer.GenerationNumber = Optimizer.GenerationNumber + 1;
 
     end    
 

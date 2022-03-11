@@ -43,24 +43,26 @@ for ii=1 : Optimizer.SwarmNumber
         Optimizer.pop(ii).BestValue = BestPbestValue;
         Optimizer.pop(ii).BestPosition = Optimizer.pop(ii).PbestPosition(BestPbestID,:);
     end
-    %     end
-    for jj=1 : Optimizer.QuantumNumber
-        %QuantumPosition = Optimizer.pop(ii).BestPosition + rands(1,Optimizer.Dimension)*Optimizer.QuantumRadius;
-        QuantumPosition = Optimizer.pop(ii).BestPosition + 0.5 * normrnd(0, 1, 1,Optimizer.Dimension)*Optimizer.QuantumRadius;
-        for kk=1 : Optimizer.Dimension
-            if QuantumPosition > Optimizer.MaxCoordinate
-                QuantumPosition(kk) = Optimizer.MaxCoordinate;
-            elseif QuantumPosition < Optimizer.MinCoordinate
-                QuantumPosition(kk) = Optimizer.MinCoordinate;
+    if Optimizer.ReactionCount > 0
+        %     end
+        for jj=1 : Optimizer.QuantumNumber
+            %QuantumPosition = Optimizer.pop(ii).BestPosition + rands(1,Optimizer.Dimension)*Optimizer.QuantumRadius;
+            QuantumPosition = Optimizer.pop(ii).BestPosition + (1/3) * normrnd(0, 1, 1,Optimizer.Dimension)*Optimizer.QuantumRadius;
+            for kk=1 : Optimizer.Dimension
+                if QuantumPosition > Optimizer.MaxCoordinate
+                    QuantumPosition(kk) = Optimizer.MaxCoordinate;
+                elseif QuantumPosition < Optimizer.MinCoordinate
+                    QuantumPosition(kk) = Optimizer.MinCoordinate;
+                end
             end
-        end
-        [QuantumFitnessValue,Problem] = fitness(QuantumPosition,Problem);
-        if Problem.RecentChange == 1
-            return;
-        end
-        if QuantumFitnessValue > Optimizer.pop(ii).BestValue
-            Optimizer.pop(ii).BestValue = QuantumFitnessValue;
-            Optimizer.pop(ii).BestPosition = QuantumPosition;
+            [QuantumFitnessValue,Problem] = fitness(QuantumPosition,Problem);
+            if Problem.RecentChange == 1
+                return;
+            end
+            if QuantumFitnessValue > Optimizer.pop(ii).BestValue
+                Optimizer.pop(ii).BestValue = QuantumFitnessValue;
+                Optimizer.pop(ii).BestPosition = QuantumPosition;
+            end
         end
     end
 end
@@ -111,4 +113,9 @@ if IsAllConverged == Optimizer.SwarmNumber
         return;
     end
 end
+
+if Optimizer.ReactionCount > 0
+    Optimizer.ReactionCount = Optimizer.ReactionCount - 1;
+end
+
 end
