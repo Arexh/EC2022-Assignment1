@@ -21,7 +21,7 @@ for jj=1 : Optimizer.SwarmNumber
 end
 dummy = dummy(~isnan(dummy(:)));
 if ~isempty(dummy)
-    Optimizer.ShiftSeverity = median(dummy);
+    Optimizer.ShiftSeverity = mean(dummy);
 end
 Optimizer.QuantumRadius = Optimizer.ShiftSeverity;
 %% Updating memory
