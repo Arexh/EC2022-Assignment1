@@ -58,7 +58,7 @@ addpath('./ThirdParty/WorkerObjWrapper');
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    'PSO-5(15+3)-median', ... % LogPathName
+    'mQSO-5(15+3)-median', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
