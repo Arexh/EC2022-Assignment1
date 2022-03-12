@@ -14,7 +14,6 @@ function [Optimizer,Problem] = Reaction(Optimizer,Problem)
 Optimizer.ReactionNumber = min(10, (Optimizer.GenerationNumber - Optimizer.PreviousEnvironmentNumber) / 2);
 Optimizer.PreviousEnvironmentNumber = Optimizer.GenerationNumber;
 Optimizer.QuantumNumber = min(15, Optimizer.ReactionNumber * 2);
-disp(Optimizer.ReactionNumber);
 %% Updating Shift Severity
 dummy = NaN(Optimizer.SwarmNumber,Problem.EnvironmentNumber);
 for jj=1 : Optimizer.SwarmNumber
