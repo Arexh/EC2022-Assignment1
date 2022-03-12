@@ -58,7 +58,7 @@ addpath('./ThirdParty/WorkerObjWrapper');
 %% Init variables
 CurrentSummary = Summary( ...
 ...
-    'mQSO-5(15+3)-median-Qnorm-lazy', ... % LogPathName
+    'mQSO-5(15+15)-median-Qnorm-lazy-adaptive', ... % LogPathName
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
@@ -170,6 +170,7 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     Optimizer.ReactionCount = Optimizer.ReactionNumber;
     Optimizer.GenerationNumber = 1;
     Optimizer.PreviousEnvironmentNumber = Optimizer.GenerationNumber;
+    Optimizer.QuantumHits = ones(Optimizer.SwarmNumber, 1);
     if ~CurrentSummary.OptimizerLog
         disp(Optimizer);
     end
@@ -185,6 +186,7 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
 
         if Problem.RecentChange == 1 %When an environmental change has happened
             Problem.RecentChange = 0;
+            Optimizer.QuantumHits = ones(Optimizer.SwarmNumber, 1);
             Optimizer.ReactionCount = Optimizer.ReactionNumber;
             [Optimizer, Problem] = Reaction(Optimizer, Problem);
             clc; disp(['Run number: ', num2str(RunCounter), '   Environment number: ', num2str(Problem.Environmentcounter), ' counter:', num2str(RunCounter), ' PROBLEM NUMBER: ', num2str(ProblemNum)]);

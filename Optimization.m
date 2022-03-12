@@ -11,6 +11,15 @@
 % 
 %**********************************************************************************
 function [Optimizer , Problem] = Optimization(Optimizer,Problem)
+BestScores = NaN(Optimizer.SwarmNumber, 1);
+for ii=1 : Optimizer.SwarmNumber; BestScores(ii) = Optimizer.pop(ii).BestValue; end
+NormalizedHits = BestScores - min(BestScores);
+NormalizedHits = NormalizedHits .* NormalizedHits;
+NormalizedHits = normalize(NormalizedHits, 'norm', 1) * Optimizer.SwarmNumber * Optimizer.QuantumNumber;
+NormalizedHits(NormalizedHits < floor(Optimizer.QuantumNumber / 2)) = floor(Optimizer.QuantumNumber / 2);
+AnotherGroup = NormalizedHits(NormalizedHits~=floor(Optimizer.QuantumNumber / 2));
+AnotherGroup = normalize(AnotherGroup .* AnotherGroup, 'norm', 1)   * (Optimizer.SwarmNumber * Optimizer.QuantumNumber - sum(NormalizedHits(NormalizedHits==floor(Optimizer.QuantumNumber / 2))));
+NormalizedHits(NormalizedHits~=floor(Optimizer.QuantumNumber / 2)) = floor(AnotherGroup);
 %% Sub-swarm movement
 for ii=1 : Optimizer.SwarmNumber
     %     if Optimizer.pop(ii).Active==1
@@ -45,7 +54,7 @@ for ii=1 : Optimizer.SwarmNumber
     end
     if Optimizer.ReactionCount > 0
         %     end
-        for jj=1 : Optimizer.QuantumNumber
+        for jj=1 : NormalizedHits(ii)
             %QuantumPosition = Optimizer.pop(ii).BestPosition + rands(1,Optimizer.Dimension)*Optimizer.QuantumRadius;
             QuantumPosition = Optimizer.pop(ii).BestPosition + (1/3) * normrnd(0, 1, 1,Optimizer.Dimension)*Optimizer.QuantumRadius;
             for kk=1 : Optimizer.Dimension
@@ -60,6 +69,7 @@ for ii=1 : Optimizer.SwarmNumber
                 return;
             end
             if QuantumFitnessValue > Optimizer.pop(ii).BestValue
+                Optimizer.QuantumHits(ii) = Optimizer.QuantumHits(ii) + 1;
                 Optimizer.pop(ii).BestValue = QuantumFitnessValue;
                 Optimizer.pop(ii).BestPosition = QuantumPosition;
             end
