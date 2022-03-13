@@ -62,7 +62,7 @@ CurrentSummary = Summary( ...
     'main.log', ... % DFileName
     100, ... % EnvironmentNumber
     31, ... % RunNumber
-    (1:14), ... % IndependentProblems
+    (8), ... % IndependentProblems
     true, ... % Rerun
     true ... % SimpleLog
 );
@@ -162,8 +162,8 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     Optimizer.c2 = 2.05;
     Optimizer.ShiftSeverity = 1;
     Optimizer.QuantumRadius = Optimizer.ShiftSeverity;
-    Optimizer.QuantumNumber = 10;
-    Optimizer.SwarmNumber = 5;
+    Optimizer.QuantumNumber = 5;
+    Optimizer.SwarmNumber = 10;
     Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
     Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
     if ~CurrentSummary.OptimizerLog
