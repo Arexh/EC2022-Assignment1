@@ -1,0 +1,26 @@
+\begin{table}
+  \centering
+  \caption{Average Error on IEEE CEC 2022 Competition on DOPs For Non-Lazy and Lazy Strategy, 31 Runs}
+  \begin{tabular}{c|rr|rr|r|r}
+    \hline
+    \multirow{2}{*}{ Problem } & \multicolumn{2}{c|}{Non-Lazy} & \multicolumn{2}{c|}{Lazy} & \multirow{2}{*}{ARI} & \multirow{2}{*}{\shortstack{NL-L\\t-test}} \\
+    \cline{2-5}
+    & Mean & Std & Mean & Std & \\
+    \hline
+    F1 & $3.44$ & $0.65$ & $2.99$ & $0.75$ & $13.2\%$& 2.53$^\dagger$\\
+    F2 & $4.60$ & $0.99$ & $4.47$ & $1.05$ & $2.9\%$& 0.51\\
+    F3 & $5.99$ & $1.06$ & $5.86$ & $1.12$ & $2.3\%$& 0.49\\
+    F4 & $5.81$ & $0.82$ & $5.99$ & $0.74$ & $-3.0\%$& -0.89\\
+    F5 & $6.13$ & $0.76$ & $5.70$ & $0.79$ & $7.1\%$& 2.20$^\dagger$\\
+    F6 & $6.16$ & $1.18$ & $6.29$ & $1.11$ & $-2.0\%$& -0.43\\
+    F7 & $9.68$ & $1.59$ & $9.81$ & $1.72$ & $-1.3\%$& -0.29\\
+    F8 & $14.86$ & $1.99$ & $14.47$ & $2.56$ & $2.6\%$& 0.67\\
+    F9 & $16.31$ & $3.85$ & $13.58$ & $2.58$ & $16.7\%$& 3.28$^\dagger$\\
+    F10 & $63.27$ & $26.40$ & $59.65$ & $22.07$ & $5.7\%$& 0.59\\
+    F11 & $6.09$ & $1.25$ & $5.37$ & $0.83$ & $11.9\%$& 2.68$^\dagger$\\
+    F12 & $9.19$ & $1.11$ & $8.09$ & $1.01$ & $12.0\%$& 4.09$^\dagger$\\
+    F13 & $6.77$ & $2.32$ & $6.07$ & $2.88$ & $10.4\%$& 1.06\\
+    F14 & $0.98$ & $0.25$ & $1.00$ & $0.27$ & $-1.4\%$& -0.22\\
+    \hline
+    \multicolumn{7}{c}{}\\    \multicolumn{7}{l}{\shortstack{$^\dagger$A significant $t$ value of a two-tailed test with 60 degrees of freedom \\and $\alpha=0.05$.}}\\  \end{tabular}
+\end{table}

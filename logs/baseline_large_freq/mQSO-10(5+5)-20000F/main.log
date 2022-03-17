@@ -1,0 +1,2242 @@
+Start time: 17-Mar-2022 11:14:02
+Problem Number: 8 Runnumber: 31
+           Dimension: 5
+      PopulationSize: 5
+       MaxCoordinate: 100
+       MinCoordinate: -100
+       DiversityPlus: 1
+                   x: 0.7298
+                  c1: 2.0500
+                  c2: 2.0500
+       ShiftSeverity: 1
+       QuantumRadius: 1
+       QuantumNumber: 5
+         SwarmNumber: 10
+      ExclusionLimit: 63.0957
+    ConvergenceLimit: 63.0957
+
+           Dimension: 5
+      PopulationSize: 5
+       MaxCoordinate: 100
+       MinCoordinate: -100
+       DiversityPlus: 1
+                   x: 0.7298
+                  c1: 2.0500
+                  c2: 2.0500
+       ShiftSeverity: 1
+       QuantumRadius: 1
+       QuantumNumber: 5
+         SwarmNumber: 10
+      ExclusionLimit: 63.0957
+    ConvergenceLimit: 63.0957
+
+           Dimension: 5
+      PopulationSize: 5
+       MaxCoordinate: 100
+       MinCoordinate: -100
+       DiversityPlus: 1
+                   x: 0.7298
+                  c1: 2.0500
+                  c2: 2.0500
+       ShiftSeverity: 1
+       QuantumRadius: 1
+       QuantumNumber: 5
+         SwarmNumber: 10
+      ExclusionLimit: 63.0957
+    ConvergenceLimit: 63.0957
+
+           Dimension: 5
+      PopulationSize: 5
+       MaxCoordinate: 100
+       MinCoordinate: -100
+       DiversityPlus: 1
+                   x: 0.7298
+                  c1: 2.0500
+                  c2: 2.0500
+       ShiftSeverity: 1
+       QuantumRadius: 1
+       QuantumNumber: 5
+         SwarmNumber: 10
+      ExclusionLimit: 63.0957
+    ConvergenceLimit: 63.0957
+
+           Dimension: 5
+      PopulationSize: 5
+       MaxCoordinate: 100
+       MinCoordinate: -100
+       DiversityPlus: 1
+                   x: 0.7298
+                  c1: 2.0500
+                  c2: 2.0500
+       ShiftSeverity: 1
+       QuantumRadius: 1
+       QuantumNumber: 5
+         SwarmNumber: 10
+      ExclusionLimit: 63.0957
+    ConvergenceLimit: 63.0957
+
+           Dimension: 5
+      PopulationSize: 5
+       MaxCoordinate: 100
+       MinCoordinate: -100
+       DiversityPlus: 1
+                   x: 0.7298
+                  c1: 2.0500
+                  c2: 2.0500
+       ShiftSeverity: 1
+       QuantumRadius: 1
+       QuantumNumber: 5
+         SwarmNumber: 10
+      ExclusionLimit: 63.0957
+    ConvergenceLimit: 63.0957
+
+           Dimension: 5
+      PopulationSize: 5
+       MaxCoordinate: 100
+       MinCoordinate: -100
+       DiversityPlus: 1
+                   x: 0.7298
+                  c1: 2.0500
+                  c2: 2.0500
+       ShiftSeverity: 1
+       QuantumRadius: 1
+       QuantumNumber: 5
+         SwarmNumber: 10
+      ExclusionLimit: 63.0957
+    ConvergenceLimit: 63.0957
+
+           Dimension: 5
+      PopulationSize: 5
+       MaxCoordinate: 100
+       MinCoordinate: -100
+       DiversityPlus: 1
+                   x: 0.7298
+                  c1: 2.0500
+                  c2: 2.0500
+       ShiftSeverity: 1
+       QuantumRadius: 1
+       QuantumNumber: 5
+         SwarmNumber: 10
+      ExclusionLimit: 63.0957
+    ConvergenceLimit: 63.0957
+
+Run number: 1   Environment number: 2 counter:1 PROBLEM NUMBER: 8
+Run number: 2   Environment number: 2 counter:2 PROBLEM NUMBER: 8
+Run number: 4   Environment number: 2 counter:4 PROBLEM NUMBER: 8
+Run number: 5   Environment number: 2 counter:5 PROBLEM NUMBER: 8
+Run number: 6   Environment number: 2 counter:6 PROBLEM NUMBER: 8
+Run number: 7   Environment number: 2 counter:7 PROBLEM NUMBER: 8
+Run number: 8   Environment number: 2 counter:8 PROBLEM NUMBER: 8
+Run number: 3   Environment number: 2 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.848662 seconds.
+Run number: 1   Environment number: 3 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.967214 seconds.
+Run number: 2   Environment number: 3 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.749359 seconds.
+Run number: 4   Environment number: 3 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.870713 seconds.
+Run number: 5   Environment number: 3 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.878410 seconds.
+Run number: 6   Environment number: 3 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.940240 seconds.
+Run number: 7   Environment number: 3 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.769701 seconds.
+Run number: 8   Environment number: 3 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 7.666411 seconds.
+Run number: 3   Environment number: 3 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.385757 seconds.
+Run number: 1   Environment number: 4 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.506763 seconds.
+Run number: 2   Environment number: 4 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.507383 seconds.
+Run number: 4   Environment number: 4 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.404800 seconds.
+Run number: 5   Environment number: 4 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.381219 seconds.
+Run number: 6   Environment number: 4 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.489816 seconds.
+Run number: 7   Environment number: 4 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.492593 seconds.
+Run number: 8   Environment number: 4 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 7.524851 seconds.
+Run number: 3   Environment number: 4 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.280252 seconds.
+Run number: 4   Environment number: 5 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.324429 seconds.
+Run number: 5   Environment number: 5 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.360785 seconds.
+Run number: 6   Environment number: 5 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.253601 seconds.
+Run number: 8   Environment number: 5 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.452106 seconds.
+Run number: 1   Environment number: 5 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.298335 seconds.
+Run number: 2   Environment number: 5 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.528147 seconds.
+Run number: 7   Environment number: 5 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 7.151830 seconds.
+Run number: 3   Environment number: 5 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.516404 seconds.
+Run number: 1   Environment number: 6 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.457370 seconds.
+Run number: 2   Environment number: 6 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.509917 seconds.
+Run number: 4   Environment number: 6 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.412689 seconds.
+Run number: 5   Environment number: 6 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.444285 seconds.
+Run number: 6   Environment number: 6 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.477654 seconds.
+Run number: 8   Environment number: 6 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.755576 seconds.
+Run number: 7   Environment number: 6 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.594514 seconds.
+Run number: 3   Environment number: 6 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.337491 seconds.
+Run number: 1   Environment number: 7 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.368615 seconds.
+Run number: 2   Environment number: 7 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.399664 seconds.
+Run number: 4   Environment number: 7 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.414725 seconds.
+Run number: 5   Environment number: 7 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.152657 seconds.
+Run number: 6   Environment number: 7 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.269321 seconds.
+Run number: 8   Environment number: 7 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.505636 seconds.
+Run number: 7   Environment number: 7 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.278982 seconds.
+Run number: 3   Environment number: 7 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.350050 seconds.
+Run number: 1   Environment number: 8 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.345332 seconds.
+Run number: 5   Environment number: 8 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.290279 seconds.
+Run number: 6   Environment number: 8 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.447446 seconds.
+Run number: 8   Environment number: 8 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.366370 seconds.
+Run number: 2   Environment number: 8 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.533991 seconds.
+Run number: 4   Environment number: 8 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.620455 seconds.
+Run number: 7   Environment number: 8 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.379296 seconds.
+Run number: 3   Environment number: 8 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.347283 seconds.
+Run number: 4   Environment number: 9 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.437000 seconds.
+Run number: 5   Environment number: 9 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.406813 seconds.
+Run number: 6   Environment number: 9 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.327655 seconds.
+Run number: 8   Environment number: 9 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.387768 seconds.
+Run number: 1   Environment number: 9 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.355104 seconds.
+Run number: 2   Environment number: 9 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.504935 seconds.
+Run number: 7   Environment number: 9 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.235428 seconds.
+Run number: 3   Environment number: 9 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.038983 seconds.
+Run number: 4   Environment number: 10 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.041078 seconds.
+Run number: 5   Environment number: 10 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.970342 seconds.
+Run number: 6   Environment number: 10 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.118353 seconds.
+Run number: 8   Environment number: 10 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.298042 seconds.
+Run number: 1   Environment number: 10 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.067507 seconds.
+Run number: 2   Environment number: 10 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.209257 seconds.
+Run number: 7   Environment number: 10 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.212834 seconds.
+Run number: 3   Environment number: 10 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.881841 seconds.
+Run number: 6   Environment number: 11 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.988283 seconds.
+Run number: 1   Environment number: 11 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.160440 seconds.
+Run number: 2   Environment number: 11 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.997174 seconds.
+Run number: 4   Environment number: 11 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.030762 seconds.
+Run number: 5   Environment number: 11 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.013052 seconds.
+Run number: 8   Environment number: 11 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.057241 seconds.
+Run number: 7   Environment number: 11 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.958399 seconds.
+Run number: 3   Environment number: 11 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.739259 seconds.
+Run number: 6   Environment number: 12 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.898651 seconds.
+Run number: 1   Environment number: 12 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.844659 seconds.
+Run number: 2   Environment number: 12 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.095300 seconds.
+Run number: 4   Environment number: 12 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.989787 seconds.
+Run number: 5   Environment number: 12 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.723988 seconds.
+Run number: 8   Environment number: 12 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.972244 seconds.
+Run number: 7   Environment number: 12 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.004724 seconds.
+Run number: 3   Environment number: 12 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.889949 seconds.
+Run number: 6   Environment number: 13 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.817277 seconds.
+Run number: 8   Environment number: 13 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.932514 seconds.
+Run number: 1   Environment number: 13 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.993444 seconds.
+Run number: 2   Environment number: 13 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.810451 seconds.
+Run number: 4   Environment number: 13 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.864687 seconds.
+Run number: 5   Environment number: 13 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.838771 seconds.
+Run number: 7   Environment number: 13 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.812101 seconds.
+Run number: 3   Environment number: 13 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.728311 seconds.
+Run number: 6   Environment number: 14 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.884467 seconds.
+Run number: 8   Environment number: 14 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.720668 seconds.
+Run number: 1   Environment number: 14 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.938825 seconds.
+Run number: 2   Environment number: 14 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.839129 seconds.
+Run number: 4   Environment number: 14 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.958227 seconds.
+Run number: 5   Environment number: 14 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.013002 seconds.
+Run number: 7   Environment number: 14 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.976033 seconds.
+Run number: 3   Environment number: 14 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.708601 seconds.
+Run number: 6   Environment number: 15 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.069595 seconds.
+Run number: 8   Environment number: 15 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.904085 seconds.
+Run number: 1   Environment number: 15 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.881027 seconds.
+Run number: 2   Environment number: 15 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.921675 seconds.
+Run number: 4   Environment number: 15 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.022330 seconds.
+Run number: 5   Environment number: 15 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.169081 seconds.
+Run number: 7   Environment number: 15 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.138217 seconds.
+Run number: 3   Environment number: 15 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.940314 seconds.
+Run number: 6   Environment number: 16 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.853982 seconds.
+Run number: 4   Environment number: 16 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.915483 seconds.
+Run number: 8   Environment number: 16 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.900973 seconds.
+Run number: 1   Environment number: 16 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.891214 seconds.
+Run number: 2   Environment number: 16 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.770081 seconds.
+Run number: 5   Environment number: 16 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.074204 seconds.
+Run number: 7   Environment number: 16 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.118353 seconds.
+Run number: 3   Environment number: 16 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.819416 seconds.
+Run number: 6   Environment number: 17 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.948707 seconds.
+Run number: 1   Environment number: 17 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.927204 seconds.
+Run number: 4   Environment number: 17 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.996088 seconds.
+Run number: 5   Environment number: 17 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.982308 seconds.
+Run number: 8   Environment number: 17 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.948055 seconds.
+Run number: 2   Environment number: 17 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.084374 seconds.
+Run number: 7   Environment number: 17 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.999738 seconds.
+Run number: 3   Environment number: 17 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.878670 seconds.
+Run number: 6   Environment number: 18 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.863991 seconds.
+Run number: 1   Environment number: 18 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.897890 seconds.
+Run number: 2   Environment number: 18 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.964209 seconds.
+Run number: 4   Environment number: 18 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.947140 seconds.
+Run number: 5   Environment number: 18 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.009096 seconds.
+Run number: 8   Environment number: 18 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.817878 seconds.
+Run number: 7   Environment number: 18 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.989814 seconds.
+Run number: 3   Environment number: 18 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.686063 seconds.
+Run number: 6   Environment number: 19 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.879142 seconds.
+Run number: 1   Environment number: 19 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.891317 seconds.
+Run number: 2   Environment number: 19 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.025403 seconds.
+Run number: 4   Environment number: 19 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.972174 seconds.
+Run number: 5   Environment number: 19 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.957518 seconds.
+Run number: 8   Environment number: 19 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.820714 seconds.
+Run number: 7   Environment number: 19 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.039317 seconds.
+Run number: 3   Environment number: 19 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.982974 seconds.
+Run number: 6   Environment number: 20 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.946767 seconds.
+Run number: 1   Environment number: 20 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.789383 seconds.
+Run number: 2   Environment number: 20 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.925591 seconds.
+Run number: 4   Environment number: 20 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.943758 seconds.
+Run number: 5   Environment number: 20 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.786406 seconds.
+Run number: 8   Environment number: 20 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.906574 seconds.
+Run number: 7   Environment number: 20 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.896873 seconds.
+Run number: 3   Environment number: 20 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.713824 seconds.
+Run number: 6   Environment number: 21 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.578365 seconds.
+Run number: 2   Environment number: 21 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.819257 seconds.
+Run number: 1   Environment number: 21 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.040463 seconds.
+Run number: 4   Environment number: 21 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.867242 seconds.
+Run number: 5   Environment number: 21 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.922304 seconds.
+Run number: 8   Environment number: 21 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.953532 seconds.
+Run number: 7   Environment number: 21 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.969926 seconds.
+Run number: 3   Environment number: 21 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.923523 seconds.
+Run number: 6   Environment number: 22 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.922183 seconds.
+Run number: 1   Environment number: 22 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.980728 seconds.
+Run number: 2   Environment number: 22 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.094373 seconds.
+Run number: 4   Environment number: 22 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.946984 seconds.
+Run number: 5   Environment number: 22 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.992604 seconds.
+Run number: 8   Environment number: 22 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.073760 seconds.
+Run number: 7   Environment number: 22 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.882153 seconds.
+Run number: 3   Environment number: 22 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.892595 seconds.
+Run number: 6   Environment number: 23 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.941012 seconds.
+Run number: 1   Environment number: 23 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.064517 seconds.
+Run number: 2   Environment number: 23 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.060755 seconds.
+Run number: 8   Environment number: 23 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.892393 seconds.
+Run number: 4   Environment number: 23 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.984496 seconds.
+Run number: 5   Environment number: 23 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.856597 seconds.
+Run number: 7   Environment number: 23 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.908252 seconds.
+Run number: 3   Environment number: 23 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.090338 seconds.
+Run number: 6   Environment number: 24 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.059944 seconds.
+Run number: 1   Environment number: 24 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.085090 seconds.
+Run number: 2   Environment number: 24 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.847837 seconds.
+Run number: 8   Environment number: 24 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.844332 seconds.
+Run number: 4   Environment number: 24 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.036589 seconds.
+Run number: 5   Environment number: 24 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.899265 seconds.
+Run number: 7   Environment number: 24 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.031789 seconds.
+Run number: 3   Environment number: 24 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.844937 seconds.
+Run number: 6   Environment number: 25 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.875097 seconds.
+Run number: 1   Environment number: 25 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.997828 seconds.
+Run number: 2   Environment number: 25 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.985146 seconds.
+Run number: 8   Environment number: 25 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.951391 seconds.
+Run number: 4   Environment number: 25 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.064760 seconds.
+Run number: 5   Environment number: 25 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.810716 seconds.
+Run number: 7   Environment number: 25 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.938333 seconds.
+Run number: 3   Environment number: 25 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.003557 seconds.
+Run number: 6   Environment number: 26 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.030169 seconds.
+Run number: 1   Environment number: 26 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.884273 seconds.
+Run number: 5   Environment number: 26 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.992623 seconds.
+Run number: 8   Environment number: 26 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.915273 seconds.
+Run number: 2   Environment number: 26 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.051910 seconds.
+Run number: 4   Environment number: 26 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.009997 seconds.
+Run number: 7   Environment number: 26 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.836256 seconds.
+Run number: 3   Environment number: 26 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.784775 seconds.
+Run number: 6   Environment number: 27 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.820252 seconds.
+Run number: 1   Environment number: 27 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.966242 seconds.
+Run number: 4   Environment number: 27 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.865366 seconds.
+Run number: 5   Environment number: 27 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.125280 seconds.
+Run number: 8   Environment number: 27 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.459357 seconds.
+Run number: 2   Environment number: 27 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.773258 seconds.
+Run number: 7   Environment number: 27 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.140456 seconds.
+Run number: 3   Environment number: 27 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.943332 seconds.
+Run number: 6   Environment number: 28 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.880181 seconds.
+Run number: 1   Environment number: 28 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.951036 seconds.
+Run number: 2   Environment number: 28 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.907681 seconds.
+Run number: 4   Environment number: 28 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.952290 seconds.
+Run number: 5   Environment number: 28 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.953353 seconds.
+Run number: 8   Environment number: 28 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.927120 seconds.
+Run number: 7   Environment number: 28 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.138312 seconds.
+Run number: 3   Environment number: 28 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.843299 seconds.
+Run number: 6   Environment number: 29 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.928657 seconds.
+Run number: 1   Environment number: 29 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.887782 seconds.
+Run number: 4   Environment number: 29 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.973245 seconds.
+Run number: 5   Environment number: 29 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.031632 seconds.
+Run number: 8   Environment number: 29 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.947965 seconds.
+Run number: 2   Environment number: 29 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.890053 seconds.
+Run number: 7   Environment number: 29 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.900302 seconds.
+Run number: 3   Environment number: 29 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.687216 seconds.
+Run number: 6   Environment number: 30 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.133826 seconds.
+Run number: 1   Environment number: 30 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.095992 seconds.
+Run number: 4   Environment number: 30 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.001103 seconds.
+Run number: 5   Environment number: 30 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.879572 seconds.
+Run number: 8   Environment number: 30 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.186054 seconds.
+Run number: 2   Environment number: 30 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.826797 seconds.
+Run number: 7   Environment number: 30 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.943378 seconds.
+Run number: 3   Environment number: 30 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.857664 seconds.
+Run number: 6   Environment number: 31 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.803640 seconds.
+Run number: 1   Environment number: 31 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.072286 seconds.
+Run number: 4   Environment number: 31 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.827112 seconds.
+Run number: 5   Environment number: 31 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.954145 seconds.
+Run number: 8   Environment number: 31 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.115106 seconds.
+Run number: 2   Environment number: 31 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.906843 seconds.
+Run number: 7   Environment number: 31 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.837113 seconds.
+Run number: 3   Environment number: 31 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.932773 seconds.
+Run number: 6   Environment number: 32 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.939708 seconds.
+Run number: 1   Environment number: 32 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.934331 seconds.
+Run number: 4   Environment number: 32 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.950056 seconds.
+Run number: 5   Environment number: 32 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.958448 seconds.
+Run number: 8   Environment number: 32 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.138597 seconds.
+Run number: 2   Environment number: 32 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.790624 seconds.
+Run number: 7   Environment number: 32 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.905815 seconds.
+Run number: 3   Environment number: 32 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.810415 seconds.
+Run number: 6   Environment number: 33 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.984088 seconds.
+Run number: 1   Environment number: 33 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.924863 seconds.
+Run number: 5   Environment number: 33 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.054026 seconds.
+Run number: 8   Environment number: 33 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.520093 seconds.
+Run number: 2   Environment number: 33 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.046548 seconds.
+Run number: 4   Environment number: 33 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.140488 seconds.
+Run number: 7   Environment number: 33 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.426619 seconds.
+Run number: 3   Environment number: 33 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.238177 seconds.
+Run number: 6   Environment number: 34 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.415478 seconds.
+Run number: 1   Environment number: 34 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.648667 seconds.
+Run number: 5   Environment number: 34 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.579528 seconds.
+Run number: 8   Environment number: 34 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.391425 seconds.
+Run number: 2   Environment number: 34 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.565178 seconds.
+Run number: 4   Environment number: 34 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.519685 seconds.
+Run number: 7   Environment number: 34 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.364522 seconds.
+Run number: 3   Environment number: 34 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.384432 seconds.
+Run number: 6   Environment number: 35 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.222655 seconds.
+Run number: 1   Environment number: 35 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.306731 seconds.
+Run number: 4   Environment number: 35 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.267389 seconds.
+Run number: 5   Environment number: 35 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.166401 seconds.
+Run number: 8   Environment number: 35 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.066924 seconds.
+Run number: 2   Environment number: 35 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.273582 seconds.
+Run number: 7   Environment number: 35 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.416099 seconds.
+Run number: 3   Environment number: 35 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.285849 seconds.
+Run number: 6   Environment number: 36 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.299731 seconds.
+Run number: 1   Environment number: 36 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.539558 seconds.
+Run number: 4   Environment number: 36 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.377314 seconds.
+Run number: 5   Environment number: 36 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.526261 seconds.
+Run number: 8   Environment number: 36 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.517789 seconds.
+Run number: 2   Environment number: 36 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.574930 seconds.
+Run number: 7   Environment number: 36 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.434226 seconds.
+Run number: 3   Environment number: 36 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.334300 seconds.
+Run number: 6   Environment number: 37 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.019008 seconds.
+Run number: 1   Environment number: 37 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.818706 seconds.
+Run number: 4   Environment number: 37 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.060362 seconds.
+Run number: 5   Environment number: 37 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.247538 seconds.
+Run number: 8   Environment number: 37 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.234007 seconds.
+Run number: 2   Environment number: 37 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.178301 seconds.
+Run number: 7   Environment number: 37 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.970156 seconds.
+Run number: 6   Environment number: 38 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.010009 seconds.
+Run number: 3   Environment number: 37 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.134275 seconds.
+Run number: 1   Environment number: 38 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.053463 seconds.
+Run number: 4   Environment number: 38 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.128467 seconds.
+Run number: 5   Environment number: 38 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.209273 seconds.
+Run number: 8   Environment number: 38 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.454382 seconds.
+Run number: 2   Environment number: 38 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.272944 seconds.
+Run number: 7   Environment number: 38 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.195471 seconds.
+Run number: 6   Environment number: 39 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.356190 seconds.
+Run number: 3   Environment number: 38 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.191958 seconds.
+Run number: 1   Environment number: 39 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.311905 seconds.
+Run number: 4   Environment number: 39 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.398764 seconds.
+Run number: 5   Environment number: 39 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.308739 seconds.
+Run number: 8   Environment number: 39 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.446716 seconds.
+Run number: 2   Environment number: 39 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.502916 seconds.
+Run number: 7   Environment number: 39 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.473530 seconds.
+Run number: 3   Environment number: 39 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.357553 seconds.
+Run number: 6   Environment number: 40 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.363302 seconds.
+Run number: 1   Environment number: 40 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.128552 seconds.
+Run number: 4   Environment number: 40 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.393984 seconds.
+Run number: 5   Environment number: 40 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.148689 seconds.
+Run number: 8   Environment number: 40 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.149236 seconds.
+Run number: 7   Environment number: 40 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.367658 seconds.
+Run number: 2   Environment number: 40 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.209281 seconds.
+Run number: 6   Environment number: 41 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.287963 seconds.
+Run number: 3   Environment number: 40 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.471314 seconds.
+Run number: 1   Environment number: 41 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.556105 seconds.
+Run number: 4   Environment number: 41 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.421487 seconds.
+Run number: 5   Environment number: 41 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.571111 seconds.
+Run number: 8   Environment number: 41 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.712141 seconds.
+Run number: 2   Environment number: 41 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.745427 seconds.
+Run number: 7   Environment number: 41 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.796830 seconds.
+Run number: 6   Environment number: 42 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.684382 seconds.
+Run number: 3   Environment number: 41 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.564575 seconds.
+Run number: 1   Environment number: 42 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.180055 seconds.
+Run number: 4   Environment number: 42 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.257955 seconds.
+Run number: 5   Environment number: 42 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.337409 seconds.
+Run number: 8   Environment number: 42 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.203431 seconds.
+Run number: 2   Environment number: 42 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.328112 seconds.
+Run number: 7   Environment number: 42 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.116275 seconds.
+Run number: 6   Environment number: 43 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.080258 seconds.
+Run number: 3   Environment number: 42 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.963733 seconds.
+Run number: 1   Environment number: 43 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.049023 seconds.
+Run number: 4   Environment number: 43 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.851649 seconds.
+Run number: 5   Environment number: 43 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.943449 seconds.
+Run number: 8   Environment number: 43 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 5.867773 seconds.
+Run number: 2   Environment number: 43 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.887487 seconds.
+Run number: 7   Environment number: 43 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.802256 seconds.
+Run number: 6   Environment number: 44 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.851506 seconds.
+Run number: 3   Environment number: 43 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.937345 seconds.
+Run number: 1   Environment number: 44 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.025037 seconds.
+Run number: 5   Environment number: 44 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.925604 seconds.
+Run number: 4   Environment number: 44 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.994270 seconds.
+Run number: 8   Environment number: 44 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.225887 seconds.
+Run number: 2   Environment number: 44 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.192855 seconds.
+Run number: 7   Environment number: 44 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.987565 seconds.
+Run number: 6   Environment number: 45 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.887462 seconds.
+Run number: 3   Environment number: 44 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.094358 seconds.
+Run number: 1   Environment number: 45 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.742764 seconds.
+Run number: 5   Environment number: 45 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.989990 seconds.
+Run number: 4   Environment number: 45 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.828533 seconds.
+Run number: 8   Environment number: 45 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.285739 seconds.
+Run number: 2   Environment number: 45 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.847286 seconds.
+Run number: 6   Environment number: 46 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.014323 seconds.
+Run number: 7   Environment number: 45 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.073092 seconds.
+Run number: 3   Environment number: 45 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.902310 seconds.
+Run number: 1   Environment number: 46 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.044777 seconds.
+Run number: 4   Environment number: 46 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.932394 seconds.
+Run number: 5   Environment number: 46 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.855353 seconds.
+Run number: 8   Environment number: 46 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.039306 seconds.
+Run number: 2   Environment number: 46 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.715819 seconds.
+Run number: 6   Environment number: 47 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.982634 seconds.
+Run number: 7   Environment number: 46 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.003307 seconds.
+Run number: 3   Environment number: 46 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.907902 seconds.
+Run number: 1   Environment number: 47 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 5.679303 seconds.
+Run number: 4   Environment number: 47 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.792754 seconds.
+Run number: 5   Environment number: 47 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 5.902175 seconds.
+Run number: 8   Environment number: 47 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.055021 seconds.
+Run number: 7   Environment number: 47 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.106956 seconds.
+Run number: 2   Environment number: 47 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 5.959777 seconds.
+Run number: 6   Environment number: 48 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.905502 seconds.
+Run number: 3   Environment number: 47 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.082314 seconds.
+Run number: 1   Environment number: 48 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.032132 seconds.
+Run number: 5   Environment number: 48 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.030190 seconds.
+Run number: 8   Environment number: 48 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.158378 seconds.
+Run number: 4   Environment number: 48 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.342334 seconds.
+Run number: 7   Environment number: 48 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.451510 seconds.
+Run number: 2   Environment number: 48 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.253580 seconds.
+Run number: 6   Environment number: 49 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.369493 seconds.
+Run number: 3   Environment number: 48 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.342677 seconds.
+Run number: 1   Environment number: 49 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.010944 seconds.
+Run number: 5   Environment number: 49 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.098508 seconds.
+Run number: 8   Environment number: 49 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.255085 seconds.
+Run number: 4   Environment number: 49 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.177674 seconds.
+Run number: 7   Environment number: 49 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.491881 seconds.
+Run number: 2   Environment number: 49 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.210311 seconds.
+Run number: 6   Environment number: 50 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.983867 seconds.
+Run number: 3   Environment number: 49 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.030828 seconds.
+Run number: 1   Environment number: 50 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.049281 seconds.
+Run number: 5   Environment number: 50 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.035595 seconds.
+Run number: 4   Environment number: 50 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.139939 seconds.
+Run number: 8   Environment number: 50 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.202940 seconds.
+Run number: 7   Environment number: 50 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.158850 seconds.
+Run number: 6   Environment number: 51 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.394894 seconds.
+Run number: 2   Environment number: 50 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.406648 seconds.
+Run number: 3   Environment number: 50 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.251033 seconds.
+Run number: 1   Environment number: 51 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.286158 seconds.
+Run number: 5   Environment number: 51 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.216105 seconds.
+Run number: 4   Environment number: 51 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.137298 seconds.
+Run number: 8   Environment number: 51 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.331079 seconds.
+Run number: 7   Environment number: 51 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.203168 seconds.
+Run number: 6   Environment number: 52 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.394641 seconds.
+Run number: 2   Environment number: 51 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.031767 seconds.
+Run number: 3   Environment number: 51 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.849531 seconds.
+Run number: 1   Environment number: 52 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.163036 seconds.
+Run number: 5   Environment number: 52 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.050406 seconds.
+Run number: 4   Environment number: 52 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.365419 seconds.
+Run number: 8   Environment number: 52 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.079190 seconds.
+Run number: 6   Environment number: 53 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 5.993516 seconds.
+Run number: 7   Environment number: 52 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.246288 seconds.
+Run number: 2   Environment number: 52 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.267054 seconds.
+Run number: 3   Environment number: 52 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.953053 seconds.
+Run number: 1   Environment number: 53 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.058226 seconds.
+Run number: 5   Environment number: 53 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.085605 seconds.
+Run number: 4   Environment number: 53 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.055417 seconds.
+Run number: 8   Environment number: 53 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.228834 seconds.
+Run number: 6   Environment number: 54 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.337765 seconds.
+Run number: 7   Environment number: 53 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.157628 seconds.
+Run number: 1   Environment number: 54 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.379464 seconds.
+Run number: 2   Environment number: 53 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.252217 seconds.
+Run number: 3   Environment number: 53 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.436050 seconds.
+Run number: 4   Environment number: 54 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.148961 seconds.
+Run number: 5   Environment number: 54 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.183503 seconds.
+Run number: 8   Environment number: 54 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.157081 seconds.
+Run number: 6   Environment number: 55 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.387507 seconds.
+Run number: 7   Environment number: 54 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.424632 seconds.
+Run number: 2   Environment number: 54 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.377194 seconds.
+Run number: 3   Environment number: 54 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.350503 seconds.
+Run number: 1   Environment number: 55 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.192107 seconds.
+Run number: 4   Environment number: 55 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.210773 seconds.
+Run number: 5   Environment number: 55 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.130952 seconds.
+Run number: 8   Environment number: 55 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.255121 seconds.
+Run number: 7   Environment number: 55 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.070554 seconds.
+Run number: 6   Environment number: 56 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.388530 seconds.
+Run number: 2   Environment number: 55 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.448669 seconds.
+Run number: 3   Environment number: 55 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.104579 seconds.
+Run number: 1   Environment number: 56 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.088540 seconds.
+Run number: 4   Environment number: 56 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.350136 seconds.
+Run number: 5   Environment number: 56 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.198721 seconds.
+Run number: 8   Environment number: 56 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.319843 seconds.
+Run number: 6   Environment number: 57 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.283760 seconds.
+Run number: 7   Environment number: 56 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.162178 seconds.
+Run number: 1   Environment number: 57 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.226448 seconds.
+Run number: 2   Environment number: 56 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.196227 seconds.
+Run number: 3   Environment number: 56 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.014744 seconds.
+Run number: 4   Environment number: 57 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.303962 seconds.
+Run number: 5   Environment number: 57 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.490570 seconds.
+Run number: 8   Environment number: 57 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.149703 seconds.
+Run number: 6   Environment number: 58 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.263771 seconds.
+Run number: 7   Environment number: 57 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 5.976591 seconds.
+Run number: 3   Environment number: 57 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 5.858194 seconds.
+Run number: 1   Environment number: 58 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.100216 seconds.
+Run number: 2   Environment number: 57 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.050064 seconds.
+Run number: 5   Environment number: 58 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.084003 seconds.
+Run number: 4   Environment number: 58 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 5.964594 seconds.
+Run number: 8   Environment number: 58 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.239743 seconds.
+Run number: 6   Environment number: 59 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.290292 seconds.
+Run number: 7   Environment number: 58 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.381806 seconds.
+Run number: 1   Environment number: 59 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.544996 seconds.
+Run number: 2   Environment number: 58 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.429594 seconds.
+Run number: 3   Environment number: 58 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.296703 seconds.
+Run number: 4   Environment number: 59 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.315081 seconds.
+Run number: 5   Environment number: 59 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.146531 seconds.
+Run number: 8   Environment number: 59 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.207406 seconds.
+Run number: 6   Environment number: 60 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.378888 seconds.
+Run number: 7   Environment number: 59 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.063586 seconds.
+Run number: 1   Environment number: 60 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.198900 seconds.
+Run number: 2   Environment number: 59 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.312239 seconds.
+Run number: 3   Environment number: 59 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.061293 seconds.
+Run number: 4   Environment number: 60 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.508283 seconds.
+Run number: 5   Environment number: 60 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.195713 seconds.
+Run number: 8   Environment number: 60 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.071099 seconds.
+Run number: 6   Environment number: 61 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.245341 seconds.
+Run number: 7   Environment number: 60 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.092293 seconds.
+Run number: 1   Environment number: 61 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.312353 seconds.
+Run number: 2   Environment number: 60 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.347355 seconds.
+Run number: 3   Environment number: 60 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.176105 seconds.
+Run number: 4   Environment number: 61 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.227729 seconds.
+Run number: 5   Environment number: 61 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.373696 seconds.
+Run number: 8   Environment number: 61 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.388551 seconds.
+Run number: 6   Environment number: 62 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.781565 seconds.
+Run number: 7   Environment number: 61 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.676946 seconds.
+Run number: 1   Environment number: 62 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.925945 seconds.
+Run number: 2   Environment number: 61 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.728104 seconds.
+Run number: 3   Environment number: 61 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.495453 seconds.
+Run number: 4   Environment number: 62 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.675368 seconds.
+Run number: 5   Environment number: 62 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.582186 seconds.
+Run number: 8   Environment number: 62 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.401586 seconds.
+Run number: 6   Environment number: 63 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.659162 seconds.
+Run number: 7   Environment number: 62 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.842706 seconds.
+Run number: 1   Environment number: 63 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.846594 seconds.
+Run number: 2   Environment number: 62 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.943877 seconds.
+Run number: 3   Environment number: 62 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.718640 seconds.
+Run number: 4   Environment number: 63 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.696546 seconds.
+Run number: 5   Environment number: 63 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 7.016564 seconds.
+Run number: 8   Environment number: 63 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.676400 seconds.
+Run number: 6   Environment number: 64 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.653686 seconds.
+Run number: 7   Environment number: 63 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.359631 seconds.
+Run number: 1   Environment number: 64 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.532370 seconds.
+Run number: 2   Environment number: 63 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.169074 seconds.
+Run number: 3   Environment number: 63 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.385069 seconds.
+Run number: 4   Environment number: 64 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.317573 seconds.
+Run number: 5   Environment number: 64 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.341478 seconds.
+Run number: 8   Environment number: 64 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.273718 seconds.
+Run number: 6   Environment number: 65 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.431835 seconds.
+Run number: 7   Environment number: 64 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.407726 seconds.
+Run number: 1   Environment number: 65 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.285746 seconds.
+Run number: 3   Environment number: 64 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.224286 seconds.
+Run number: 4   Environment number: 65 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.409205 seconds.
+Run number: 2   Environment number: 64 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.048283 seconds.
+Run number: 5   Environment number: 65 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.080340 seconds.
+Run number: 8   Environment number: 65 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.128638 seconds.
+Run number: 6   Environment number: 66 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.288614 seconds.
+Run number: 7   Environment number: 65 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.192544 seconds.
+Run number: 1   Environment number: 66 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.200810 seconds.
+Run number: 3   Environment number: 65 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.494558 seconds.
+Run number: 2   Environment number: 65 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.227667 seconds.
+Run number: 4   Environment number: 66 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.287800 seconds.
+Run number: 5   Environment number: 66 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.557416 seconds.
+Run number: 8   Environment number: 66 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.203264 seconds.
+Run number: 6   Environment number: 67 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.283652 seconds.
+Run number: 7   Environment number: 66 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.201313 seconds.
+Run number: 1   Environment number: 67 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.313599 seconds.
+Run number: 3   Environment number: 66 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.333999 seconds.
+Run number: 2   Environment number: 66 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.211733 seconds.
+Run number: 4   Environment number: 67 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.169487 seconds.
+Run number: 5   Environment number: 67 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.154319 seconds.
+Run number: 8   Environment number: 67 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.513477 seconds.
+Run number: 6   Environment number: 68 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.439522 seconds.
+Run number: 7   Environment number: 67 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.294793 seconds.
+Run number: 1   Environment number: 68 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.302031 seconds.
+Run number: 3   Environment number: 67 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.155694 seconds.
+Run number: 4   Environment number: 68 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.094343 seconds.
+Run number: 5   Environment number: 68 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.429797 seconds.
+Run number: 2   Environment number: 67 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.231761 seconds.
+Run number: 8   Environment number: 68 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.065884 seconds.
+Run number: 6   Environment number: 69 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.488403 seconds.
+Run number: 7   Environment number: 68 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.376046 seconds.
+Run number: 1   Environment number: 69 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.343493 seconds.
+Run number: 3   Environment number: 68 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.230264 seconds.
+Run number: 4   Environment number: 69 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.143506 seconds.
+Run number: 5   Environment number: 69 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.474035 seconds.
+Run number: 8   Environment number: 69 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.710177 seconds.
+Run number: 2   Environment number: 68 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.522656 seconds.
+Run number: 6   Environment number: 70 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.449877 seconds.
+Run number: 7   Environment number: 69 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.223606 seconds.
+Run number: 1   Environment number: 70 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.455152 seconds.
+Run number: 3   Environment number: 69 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.118085 seconds.
+Run number: 4   Environment number: 70 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.219783 seconds.
+Run number: 5   Environment number: 70 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.286535 seconds.
+Run number: 8   Environment number: 70 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.512338 seconds.
+Run number: 2   Environment number: 69 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.434092 seconds.
+Run number: 6   Environment number: 71 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.288327 seconds.
+Run number: 1   Environment number: 71 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.213289 seconds.
+Run number: 4   Environment number: 71 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.420044 seconds.
+Run number: 5   Environment number: 71 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.300056 seconds.
+Run number: 7   Environment number: 70 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.376246 seconds.
+Run number: 3   Environment number: 70 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.459997 seconds.
+Run number: 2   Environment number: 70 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.205875 seconds.
+Run number: 8   Environment number: 71 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.048568 seconds.
+Run number: 6   Environment number: 72 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.027876 seconds.
+Run number: 1   Environment number: 72 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.554843 seconds.
+Run number: 7   Environment number: 71 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.131577 seconds.
+Run number: 3   Environment number: 71 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.211985 seconds.
+Run number: 4   Environment number: 72 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.152053 seconds.
+Run number: 5   Environment number: 72 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.353319 seconds.
+Run number: 8   Environment number: 72 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.292131 seconds.
+Run number: 2   Environment number: 71 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.141016 seconds.
+Run number: 6   Environment number: 73 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.559345 seconds.
+Run number: 1   Environment number: 73 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.390112 seconds.
+Run number: 4   Environment number: 73 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.290016 seconds.
+Run number: 5   Environment number: 73 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.462266 seconds.
+Run number: 7   Environment number: 72 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.484862 seconds.
+Run number: 3   Environment number: 72 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.537608 seconds.
+Run number: 2   Environment number: 72 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.391408 seconds.
+Run number: 8   Environment number: 73 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.703101 seconds.
+Run number: 6   Environment number: 74 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.644724 seconds.
+Run number: 7   Environment number: 73 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.703529 seconds.
+Run number: 1   Environment number: 74 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.622346 seconds.
+Run number: 3   Environment number: 73 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.734333 seconds.
+Run number: 4   Environment number: 74 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.553232 seconds.
+Run number: 5   Environment number: 74 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.728102 seconds.
+Run number: 8   Environment number: 74 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.684405 seconds.
+Run number: 2   Environment number: 73 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.478264 seconds.
+Run number: 6   Environment number: 75 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.606790 seconds.
+Run number: 1   Environment number: 75 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.415555 seconds.
+Run number: 3   Environment number: 74 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.539703 seconds.
+Run number: 4   Environment number: 75 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.366881 seconds.
+Run number: 5   Environment number: 75 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.530870 seconds.
+Run number: 7   Environment number: 74 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.402541 seconds.
+Run number: 8   Environment number: 75 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.529302 seconds.
+Run number: 2   Environment number: 74 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.589735 seconds.
+Run number: 6   Environment number: 76 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.423257 seconds.
+Run number: 5   Environment number: 76 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.689154 seconds.
+Run number: 1   Environment number: 76 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.631114 seconds.
+Run number: 3   Environment number: 75 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.676343 seconds.
+Run number: 4   Environment number: 76 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.664926 seconds.
+Run number: 7   Environment number: 75 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.489996 seconds.
+Run number: 8   Environment number: 76 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.771863 seconds.
+Run number: 2   Environment number: 75 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.504759 seconds.
+Run number: 6   Environment number: 77 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.594167 seconds.
+Run number: 5   Environment number: 77 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.621903 seconds.
+Run number: 1   Environment number: 77 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.425406 seconds.
+Run number: 3   Environment number: 76 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.835732 seconds.
+Run number: 4   Environment number: 77 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.758863 seconds.
+Run number: 7   Environment number: 76 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.600322 seconds.
+Run number: 8   Environment number: 77 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.600012 seconds.
+Run number: 2   Environment number: 76 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.611625 seconds.
+Run number: 6   Environment number: 78 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.083641 seconds.
+Run number: 5   Environment number: 78 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.233379 seconds.
+Run number: 1   Environment number: 78 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.460729 seconds.
+Run number: 3   Environment number: 77 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.500317 seconds.
+Run number: 7   Environment number: 77 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.377225 seconds.
+Run number: 4   Environment number: 78 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.358013 seconds.
+Run number: 8   Environment number: 78 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.596751 seconds.
+Run number: 2   Environment number: 77 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.870136 seconds.
+Run number: 6   Environment number: 79 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.976812 seconds.
+Run number: 5   Environment number: 79 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 7.256315 seconds.
+Run number: 1   Environment number: 79 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 7.310931 seconds.
+Run number: 3   Environment number: 78 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 7.391562 seconds.
+Run number: 7   Environment number: 78 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 7.666112 seconds.
+Run number: 4   Environment number: 79 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 8.013565 seconds.
+Run number: 8   Environment number: 79 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 9.001439 seconds.
+Run number: 2   Environment number: 78 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 9.533120 seconds.
+Run number: 6   Environment number: 80 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 10.203036 seconds.
+Run number: 5   Environment number: 80 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 10.195426 seconds.
+Run number: 1   Environment number: 80 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 10.051269 seconds.
+Run number: 3   Environment number: 79 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 9.974832 seconds.
+Run number: 4   Environment number: 80 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 10.107922 seconds.
+Run number: 7   Environment number: 79 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 9.581928 seconds.
+Run number: 8   Environment number: 80 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 8.724786 seconds.
+Run number: 2   Environment number: 79 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 7.813172 seconds.
+Run number: 6   Environment number: 81 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.661854 seconds.
+Run number: 5   Environment number: 81 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.486282 seconds.
+Run number: 1   Environment number: 81 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.468067 seconds.
+Run number: 3   Environment number: 80 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.292100 seconds.
+Run number: 4   Environment number: 81 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.707492 seconds.
+Run number: 7   Environment number: 80 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.477183 seconds.
+Run number: 8   Environment number: 81 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.580748 seconds.
+Run number: 2   Environment number: 80 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.411896 seconds.
+Run number: 6   Environment number: 82 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.221978 seconds.
+Run number: 1   Environment number: 82 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.231188 seconds.
+Run number: 3   Environment number: 81 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.370679 seconds.
+Run number: 5   Environment number: 82 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.226548 seconds.
+Run number: 4   Environment number: 82 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.440603 seconds.
+Run number: 7   Environment number: 81 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.274519 seconds.
+Run number: 8   Environment number: 82 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.541374 seconds.
+Run number: 2   Environment number: 81 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.583120 seconds.
+Run number: 6   Environment number: 83 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.600715 seconds.
+Run number: 5   Environment number: 83 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.627318 seconds.
+Run number: 1   Environment number: 83 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.569321 seconds.
+Run number: 3   Environment number: 82 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.672709 seconds.
+Run number: 4   Environment number: 83 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.729012 seconds.
+Run number: 7   Environment number: 82 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.274345 seconds.
+Run number: 8   Environment number: 83 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.506925 seconds.
+Run number: 2   Environment number: 82 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.371287 seconds.
+Run number: 6   Environment number: 84 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.333902 seconds.
+Run number: 1   Environment number: 84 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.499674 seconds.
+Run number: 3   Environment number: 83 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.351398 seconds.
+Run number: 5   Environment number: 84 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.283386 seconds.
+Run number: 4   Environment number: 84 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.482835 seconds.
+Run number: 7   Environment number: 83 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.363594 seconds.
+Run number: 8   Environment number: 84 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.649401 seconds.
+Run number: 2   Environment number: 83 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.461031 seconds.
+Run number: 6   Environment number: 85 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.681288 seconds.
+Run number: 5   Environment number: 85 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.597351 seconds.
+Run number: 1   Environment number: 85 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.670474 seconds.
+Run number: 3   Environment number: 84 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.669705 seconds.
+Run number: 4   Environment number: 85 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.757613 seconds.
+Run number: 7   Environment number: 84 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.594170 seconds.
+Run number: 8   Environment number: 85 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.782298 seconds.
+Run number: 2   Environment number: 84 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.784061 seconds.
+Run number: 6   Environment number: 86 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.662184 seconds.
+Run number: 5   Environment number: 86 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.727230 seconds.
+Run number: 1   Environment number: 86 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.992523 seconds.
+Run number: 3   Environment number: 85 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.624830 seconds.
+Run number: 4   Environment number: 86 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.746161 seconds.
+Run number: 7   Environment number: 85 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.931203 seconds.
+Run number: 8   Environment number: 86 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.829285 seconds.
+Run number: 2   Environment number: 85 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.893554 seconds.
+Run number: 6   Environment number: 87 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.572065 seconds.
+Run number: 5   Environment number: 87 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.834162 seconds.
+Run number: 1   Environment number: 87 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.729102 seconds.
+Run number: 3   Environment number: 86 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.577016 seconds.
+Run number: 4   Environment number: 87 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.523384 seconds.
+Run number: 7   Environment number: 86 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.734930 seconds.
+Run number: 8   Environment number: 87 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.553636 seconds.
+Run number: 2   Environment number: 86 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.451845 seconds.
+Run number: 6   Environment number: 88 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.327534 seconds.
+Run number: 5   Environment number: 88 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.286971 seconds.
+Run number: 1   Environment number: 88 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.216973 seconds.
+Run number: 4   Environment number: 88 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.348025 seconds.
+Run number: 3   Environment number: 87 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.558870 seconds.
+Run number: 7   Environment number: 87 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.264202 seconds.
+Run number: 8   Environment number: 88 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.304898 seconds.
+Run number: 2   Environment number: 87 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.057773 seconds.
+Run number: 5   Environment number: 89 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.245867 seconds.
+Run number: 6   Environment number: 89 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.032954 seconds.
+Run number: 1   Environment number: 89 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.308387 seconds.
+Run number: 3   Environment number: 88 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.150744 seconds.
+Run number: 4   Environment number: 89 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.345424 seconds.
+Run number: 7   Environment number: 88 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.607857 seconds.
+Run number: 8   Environment number: 89 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.589539 seconds.
+Run number: 2   Environment number: 88 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.509994 seconds.
+Run number: 6   Environment number: 90 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.215874 seconds.
+Run number: 5   Environment number: 90 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.624936 seconds.
+Run number: 1   Environment number: 90 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.512841 seconds.
+Run number: 3   Environment number: 89 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.601662 seconds.
+Run number: 4   Environment number: 90 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.452119 seconds.
+Run number: 7   Environment number: 89 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.377917 seconds.
+Run number: 8   Environment number: 90 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.442572 seconds.
+Run number: 2   Environment number: 89 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.331407 seconds.
+Run number: 5   Environment number: 91 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.327208 seconds.
+Run number: 6   Environment number: 91 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.385687 seconds.
+Run number: 1   Environment number: 91 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.267361 seconds.
+Run number: 4   Environment number: 91 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.273000 seconds.
+Run number: 3   Environment number: 90 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.456572 seconds.
+Run number: 7   Environment number: 90 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.558425 seconds.
+Run number: 8   Environment number: 91 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 7.002478 seconds.
+Run number: 2   Environment number: 90 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.680655 seconds.
+Run number: 5   Environment number: 92 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.733343 seconds.
+Run number: 6   Environment number: 92 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.460335 seconds.
+Run number: 1   Environment number: 92 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.557630 seconds.
+Run number: 3   Environment number: 91 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.694647 seconds.
+Run number: 4   Environment number: 92 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.639543 seconds.
+Run number: 7   Environment number: 91 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.424008 seconds.
+Run number: 8   Environment number: 92 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.312510 seconds.
+Run number: 2   Environment number: 91 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.171076 seconds.
+Run number: 6   Environment number: 93 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.266912 seconds.
+Run number: 5   Environment number: 93 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.118352 seconds.
+Run number: 1   Environment number: 93 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.291992 seconds.
+Run number: 4   Environment number: 93 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.315830 seconds.
+Run number: 3   Environment number: 92 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.233958 seconds.
+Run number: 7   Environment number: 92 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.279495 seconds.
+Run number: 8   Environment number: 93 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.291404 seconds.
+Run number: 6   Environment number: 94 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.721104 seconds.
+Run number: 2   Environment number: 92 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.290759 seconds.
+Run number: 5   Environment number: 94 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.531629 seconds.
+Run number: 1   Environment number: 94 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.475741 seconds.
+Run number: 4   Environment number: 94 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.514103 seconds.
+Run number: 3   Environment number: 93 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.561663 seconds.
+Run number: 7   Environment number: 93 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.417341 seconds.
+Run number: 8   Environment number: 94 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.476837 seconds.
+Run number: 2   Environment number: 93 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.365313 seconds.
+Run number: 6   Environment number: 95 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.450471 seconds.
+Run number: 5   Environment number: 95 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.475793 seconds.
+Run number: 1   Environment number: 95 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.182974 seconds.
+Run number: 4   Environment number: 95 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.402649 seconds.
+Run number: 3   Environment number: 94 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.576892 seconds.
+Run number: 7   Environment number: 94 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.458751 seconds.
+Run number: 8   Environment number: 95 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.798319 seconds.
+Run number: 2   Environment number: 94 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.837999 seconds.
+Run number: 5   Environment number: 96 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.672776 seconds.
+Run number: 6   Environment number: 96 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 7.073823 seconds.
+Run number: 1   Environment number: 96 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.788393 seconds.
+Run number: 3   Environment number: 95 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 7.041987 seconds.
+Run number: 4   Environment number: 96 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.855348 seconds.
+Run number: 7   Environment number: 95 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.835666 seconds.
+Run number: 8   Environment number: 96 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.611904 seconds.
+Run number: 2   Environment number: 95 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.753366 seconds.
+Run number: 6   Environment number: 97 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.437114 seconds.
+Run number: 5   Environment number: 97 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.476500 seconds.
+Run number: 1   Environment number: 97 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.582745 seconds.
+Run number: 4   Environment number: 97 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.486617 seconds.
+Run number: 3   Environment number: 96 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.656093 seconds.
+Run number: 7   Environment number: 96 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.636530 seconds.
+Run number: 8   Environment number: 97 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.486633 seconds.
+Run number: 6   Environment number: 98 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.714635 seconds.
+Run number: 2   Environment number: 96 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.779581 seconds.
+Run number: 5   Environment number: 98 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.704879 seconds.
+Run number: 1   Environment number: 98 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.565456 seconds.
+Run number: 4   Environment number: 98 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.599612 seconds.
+Run number: 3   Environment number: 97 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.758614 seconds.
+Run number: 7   Environment number: 97 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.729345 seconds.
+Run number: 8   Environment number: 98 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.674063 seconds.
+Run number: 2   Environment number: 97 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.243589 seconds.
+Run number: 5   Environment number: 99 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.459283 seconds.
+Run number: 6   Environment number: 99 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.278489 seconds.
+Run number: 1   Environment number: 99 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.114167 seconds.
+Run number: 3   Environment number: 98 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.266594 seconds.
+Run number: 4   Environment number: 99 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.241022 seconds.
+Run number: 7   Environment number: 98 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.208641 seconds.
+Run number: 8   Environment number: 99 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.195749 seconds.
+Run number: 6   Environment number: 100 counter:6 PROBLEM NUMBER: 8
+Elapsed time is 6.360763 seconds.
+Run number: 2   Environment number: 98 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.309372 seconds.
+Run number: 5   Environment number: 100 counter:5 PROBLEM NUMBER: 8
+Elapsed time is 6.204948 seconds.
+Run number: 1   Environment number: 100 counter:1 PROBLEM NUMBER: 8
+Elapsed time is 6.454394 seconds.
+Run number: 3   Environment number: 99 counter:3 PROBLEM NUMBER: 8
+Elapsed time is 6.224392 seconds.
+Run number: 4   Environment number: 100 counter:4 PROBLEM NUMBER: 8
+Elapsed time is 6.503499 seconds.
+Run number: 7   Environment number: 99 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.595362 seconds.
+Run number: 8   Environment number: 100 counter:8 PROBLEM NUMBER: 8
+Elapsed time is 6.545398 seconds.
+Offline Error Updated (Run: 6).
+Elapsed time is 6.571076 seconds.
+Offline Error Updated (Run: 5).
+Elapsed time is 6.791135 seconds.
+Run number: 2   Environment number: 99 counter:2 PROBLEM NUMBER: 8
+Elapsed time is 6.392823 seconds.
+Offline Error Updated (Run: 4).
+Offline Error Updated (Run: 1).
+Elapsed time is 6.680837 seconds.
+Elapsed time is 6.601342 seconds.
+Run number: 3   Environment number: 100 counter:3 PROBLEM NUMBER: 8
+Offline Error Updated (Run: 8).
+Elapsed time is 6.790127 seconds.
+Run number: 7   Environment number: 100 counter:7 PROBLEM NUMBER: 8
+Elapsed time is 6.542638 seconds.
+Run number: 14   Environment number: 2 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.650740 seconds.
+Run number: 2   Environment number: 100 counter:2 PROBLEM NUMBER: 8
+Run number: 13   Environment number: 2 counter:13 PROBLEM NUMBER: 8
+Run number: 9   Environment number: 2 counter:9 PROBLEM NUMBER: 8
+Run number: 12   Environment number: 2 counter:12 PROBLEM NUMBER: 8
+Offline Error Updated (Run: 3).
+Elapsed time is 6.576490 seconds.
+Offline Error Updated (Run: 7).
+Elapsed time is 6.698350 seconds.
+Run number: 16   Environment number: 2 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.348963 seconds.
+Run number: 14   Environment number: 3 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.436576 seconds.
+Elapsed time is 6.512202 seconds.
+Run number: 13   Environment number: 3 counter:13 PROBLEM NUMBER: 8
+Offline Error Updated (Run: 2).
+Elapsed time is 6.334822 seconds.
+Run number: 9   Environment number: 3 counter:9 PROBLEM NUMBER: 8
+Run number: 11   Environment number: 2 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.523152 seconds.
+Run number: 12   Environment number: 3 counter:12 PROBLEM NUMBER: 8
+Run number: 15   Environment number: 2 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.606765 seconds.
+Run number: 16   Environment number: 3 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.455722 seconds.
+Run number: 14   Environment number: 4 counter:14 PROBLEM NUMBER: 8
+Run number: 10   Environment number: 2 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.704520 seconds.
+Run number: 13   Environment number: 4 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.903050 seconds.
+Run number: 12   Environment number: 4 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 7.019959 seconds.
+Run number: 9   Environment number: 4 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.879806 seconds.
+Run number: 11   Environment number: 3 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.682637 seconds.
+Run number: 15   Environment number: 3 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.913406 seconds.
+Run number: 16   Environment number: 4 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.732213 seconds.
+Run number: 14   Environment number: 5 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.442454 seconds.
+Run number: 10   Environment number: 3 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.770783 seconds.
+Run number: 13   Environment number: 5 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.460307 seconds.
+Run number: 9   Environment number: 5 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.367601 seconds.
+Run number: 11   Environment number: 4 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.590587 seconds.
+Run number: 12   Environment number: 5 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.729651 seconds.
+Run number: 15   Environment number: 4 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.614824 seconds.
+Run number: 16   Environment number: 5 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.397699 seconds.
+Run number: 14   Environment number: 6 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.328418 seconds.
+Run number: 10   Environment number: 4 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.386094 seconds.
+Run number: 13   Environment number: 6 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.183997 seconds.
+Run number: 9   Environment number: 6 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.182276 seconds.
+Run number: 11   Environment number: 5 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.248111 seconds.
+Run number: 12   Environment number: 6 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 5.985281 seconds.
+Run number: 15   Environment number: 5 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 5.975495 seconds.
+Run number: 16   Environment number: 6 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.196357 seconds.
+Run number: 14   Environment number: 7 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 5.926607 seconds.
+Run number: 10   Environment number: 5 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 5.994927 seconds.
+Run number: 13   Environment number: 7 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.142559 seconds.
+Run number: 9   Environment number: 7 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.197052 seconds.
+Run number: 11   Environment number: 6 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.316430 seconds.
+Run number: 12   Environment number: 7 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.452514 seconds.
+Run number: 15   Environment number: 6 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.584181 seconds.
+Run number: 16   Environment number: 7 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.662442 seconds.
+Run number: 14   Environment number: 8 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.472557 seconds.
+Run number: 10   Environment number: 6 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.528736 seconds.
+Run number: 13   Environment number: 8 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.575133 seconds.
+Run number: 9   Environment number: 8 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.567229 seconds.
+Run number: 11   Environment number: 7 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.677142 seconds.
+Run number: 12   Environment number: 8 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.479437 seconds.
+Run number: 15   Environment number: 7 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.656631 seconds.
+Run number: 16   Environment number: 8 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.396580 seconds.
+Run number: 14   Environment number: 9 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.491160 seconds.
+Run number: 10   Environment number: 7 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.319431 seconds.
+Run number: 13   Environment number: 9 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.288838 seconds.
+Run number: 9   Environment number: 9 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.194884 seconds.
+Run number: 12   Environment number: 9 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.409407 seconds.
+Run number: 11   Environment number: 8 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.188658 seconds.
+Run number: 15   Environment number: 8 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.111808 seconds.
+Run number: 16   Environment number: 9 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 5.927324 seconds.
+Run number: 14   Environment number: 10 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.090231 seconds.
+Run number: 10   Environment number: 8 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 5.917922 seconds.
+Run number: 13   Environment number: 10 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 5.998894 seconds.
+Run number: 9   Environment number: 10 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 5.939625 seconds.
+Run number: 12   Environment number: 10 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.123060 seconds.
+Run number: 11   Environment number: 9 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.183397 seconds.
+Run number: 15   Environment number: 9 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 5.886555 seconds.
+Run number: 16   Environment number: 10 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 5.865214 seconds.
+Run number: 14   Environment number: 11 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.115007 seconds.
+Run number: 10   Environment number: 9 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.247531 seconds.
+Run number: 13   Environment number: 11 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.077089 seconds.
+Run number: 9   Environment number: 11 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.105402 seconds.
+Run number: 12   Environment number: 11 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.176887 seconds.
+Run number: 11   Environment number: 10 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.106050 seconds.
+Run number: 15   Environment number: 10 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 5.938109 seconds.
+Run number: 16   Environment number: 11 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.159401 seconds.
+Run number: 14   Environment number: 12 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.105999 seconds.
+Run number: 10   Environment number: 10 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.139370 seconds.
+Run number: 13   Environment number: 12 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.050741 seconds.
+Run number: 9   Environment number: 12 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.069813 seconds.
+Run number: 12   Environment number: 12 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.122141 seconds.
+Run number: 11   Environment number: 11 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.200155 seconds.
+Run number: 16   Environment number: 12 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.148009 seconds.
+Run number: 15   Environment number: 11 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.025515 seconds.
+Run number: 14   Environment number: 13 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 5.893580 seconds.
+Run number: 10   Environment number: 11 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 5.977021 seconds.
+Run number: 13   Environment number: 13 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 5.838267 seconds.
+Run number: 9   Environment number: 13 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 5.678554 seconds.
+Run number: 12   Environment number: 13 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 5.853909 seconds.
+Run number: 11   Environment number: 12 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.098110 seconds.
+Run number: 15   Environment number: 12 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 5.929201 seconds.
+Run number: 16   Environment number: 13 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.052251 seconds.
+Run number: 14   Environment number: 14 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 5.881120 seconds.
+Run number: 10   Environment number: 12 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 5.999186 seconds.
+Run number: 13   Environment number: 14 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 5.923147 seconds.
+Run number: 9   Environment number: 14 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 5.971698 seconds.
+Run number: 12   Environment number: 14 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.099104 seconds.
+Run number: 11   Environment number: 13 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.260048 seconds.
+Run number: 15   Environment number: 13 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.395341 seconds.
+Run number: 16   Environment number: 14 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.237039 seconds.
+Run number: 14   Environment number: 15 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.202884 seconds.
+Run number: 10   Environment number: 13 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.134546 seconds.
+Run number: 13   Environment number: 15 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.111842 seconds.
+Run number: 9   Environment number: 15 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.165355 seconds.
+Run number: 12   Environment number: 15 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.290191 seconds.
+Run number: 11   Environment number: 14 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 5.933829 seconds.
+Run number: 16   Environment number: 15 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.188586 seconds.
+Run number: 15   Environment number: 14 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 5.791141 seconds.
+Run number: 10   Environment number: 14 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 5.819246 seconds.
+Run number: 14   Environment number: 16 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 5.843422 seconds.
+Run number: 9   Environment number: 16 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 5.771977 seconds.
+Run number: 12   Environment number: 16 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 5.807556 seconds.
+Run number: 13   Environment number: 16 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 5.836557 seconds.
+Run number: 11   Environment number: 15 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 5.855928 seconds.
+Run number: 16   Environment number: 16 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 5.818466 seconds.
+Run number: 15   Environment number: 15 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 5.781393 seconds.
+Run number: 10   Environment number: 15 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 5.699217 seconds.
+Run number: 13   Environment number: 17 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 5.973032 seconds.
+Run number: 14   Environment number: 17 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 5.694748 seconds.
+Run number: 9   Environment number: 17 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 5.725773 seconds.
+Run number: 12   Environment number: 17 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 5.675835 seconds.
+Run number: 11   Environment number: 16 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 5.901696 seconds.
+Run number: 16   Environment number: 17 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 5.986887 seconds.
+Run number: 14   Environment number: 18 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 5.999146 seconds.
+Run number: 15   Environment number: 16 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 5.994295 seconds.
+Run number: 10   Environment number: 16 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 5.825614 seconds.
+Run number: 13   Environment number: 18 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 5.758565 seconds.
+Run number: 9   Environment number: 18 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 5.834672 seconds.
+Run number: 12   Environment number: 18 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.102811 seconds.
+Run number: 11   Environment number: 17 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.059159 seconds.
+Run number: 16   Environment number: 18 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 5.874037 seconds.
+Run number: 14   Environment number: 19 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.098361 seconds.
+Run number: 15   Environment number: 17 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 5.976629 seconds.
+Run number: 10   Environment number: 17 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 5.929829 seconds.
+Run number: 13   Environment number: 19 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.164738 seconds.
+Run number: 9   Environment number: 19 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.021750 seconds.
+Run number: 12   Environment number: 19 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.150114 seconds.
+Run number: 11   Environment number: 18 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.067438 seconds.
+Run number: 16   Environment number: 19 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.105752 seconds.
+Run number: 14   Environment number: 20 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.319479 seconds.
+Run number: 15   Environment number: 18 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.231181 seconds.
+Run number: 10   Environment number: 18 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.149117 seconds.
+Run number: 13   Environment number: 20 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.186928 seconds.
+Run number: 9   Environment number: 20 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.013671 seconds.
+Run number: 12   Environment number: 20 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.098625 seconds.
+Run number: 11   Environment number: 19 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 5.871182 seconds.
+Run number: 16   Environment number: 20 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 5.648920 seconds.
+Run number: 14   Environment number: 21 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.083307 seconds.
+Run number: 15   Environment number: 19 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 5.903271 seconds.
+Run number: 10   Environment number: 19 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 5.983007 seconds.
+Run number: 13   Environment number: 21 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 5.873918 seconds.
+Run number: 9   Environment number: 21 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 5.869903 seconds.
+Run number: 12   Environment number: 21 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.191118 seconds.
+Run number: 11   Environment number: 20 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.203665 seconds.
+Run number: 14   Environment number: 22 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.287008 seconds.
+Run number: 16   Environment number: 21 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.440200 seconds.
+Run number: 15   Environment number: 20 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.076872 seconds.
+Run number: 9   Environment number: 22 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.334097 seconds.
+Run number: 10   Environment number: 20 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.114973 seconds.
+Run number: 12   Environment number: 22 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.223068 seconds.
+Run number: 13   Environment number: 22 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.320600 seconds.
+Run number: 11   Environment number: 21 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.252476 seconds.
+Run number: 14   Environment number: 23 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.345217 seconds.
+Run number: 16   Environment number: 22 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.569014 seconds.
+Run number: 15   Environment number: 21 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.285159 seconds.
+Run number: 9   Environment number: 23 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.443181 seconds.
+Run number: 10   Environment number: 21 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.424335 seconds.
+Run number: 12   Environment number: 23 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.549510 seconds.
+Run number: 13   Environment number: 23 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.443087 seconds.
+Run number: 11   Environment number: 22 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.040654 seconds.
+Run number: 14   Environment number: 24 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.157189 seconds.
+Run number: 16   Environment number: 23 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.107975 seconds.
+Run number: 15   Environment number: 22 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.132524 seconds.
+Run number: 9   Environment number: 24 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.073846 seconds.
+Run number: 10   Environment number: 22 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 5.885330 seconds.
+Run number: 12   Environment number: 24 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 5.997405 seconds.
+Run number: 13   Environment number: 24 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 5.921510 seconds.
+Run number: 11   Environment number: 23 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 5.941238 seconds.
+Run number: 16   Environment number: 24 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.039666 seconds.
+Run number: 14   Environment number: 25 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 5.946242 seconds.
+Run number: 10   Environment number: 23 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.095112 seconds.
+Run number: 15   Environment number: 23 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 5.990508 seconds.
+Run number: 9   Environment number: 25 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 5.948292 seconds.
+Run number: 12   Environment number: 25 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 5.847309 seconds.
+Run number: 13   Environment number: 25 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 5.984527 seconds.
+Run number: 11   Environment number: 24 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.046971 seconds.
+Run number: 14   Environment number: 26 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.007149 seconds.
+Run number: 16   Environment number: 25 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 5.727278 seconds.
+Run number: 10   Environment number: 24 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.242026 seconds.
+Run number: 15   Environment number: 24 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 5.824035 seconds.
+Run number: 9   Environment number: 26 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 5.971925 seconds.
+Run number: 12   Environment number: 26 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 5.981947 seconds.
+Run number: 13   Environment number: 26 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.134961 seconds.
+Run number: 11   Environment number: 25 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.088019 seconds.
+Run number: 16   Environment number: 26 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.144219 seconds.
+Run number: 14   Environment number: 27 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.061091 seconds.
+Run number: 10   Environment number: 25 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.383215 seconds.
+Run number: 15   Environment number: 25 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.157013 seconds.
+Run number: 9   Environment number: 27 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.215808 seconds.
+Run number: 12   Environment number: 27 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.181515 seconds.
+Run number: 13   Environment number: 27 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.278021 seconds.
+Run number: 11   Environment number: 26 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 5.916279 seconds.
+Run number: 16   Environment number: 27 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 5.926010 seconds.
+Run number: 14   Environment number: 28 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.001779 seconds.
+Run number: 10   Environment number: 26 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 5.958992 seconds.
+Run number: 12   Environment number: 28 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.069176 seconds.
+Run number: 13   Environment number: 28 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.053708 seconds.
+Run number: 15   Environment number: 26 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.006091 seconds.
+Run number: 9   Environment number: 28 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.032250 seconds.
+Run number: 11   Environment number: 27 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.260692 seconds.
+Run number: 16   Environment number: 28 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.304702 seconds.
+Run number: 14   Environment number: 29 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.359662 seconds.
+Run number: 10   Environment number: 27 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.580565 seconds.
+Run number: 13   Environment number: 29 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.541547 seconds.
+Run number: 9   Environment number: 29 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.502950 seconds.
+Run number: 12   Environment number: 29 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.508426 seconds.
+Run number: 15   Environment number: 27 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.497920 seconds.
+Run number: 11   Environment number: 28 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.509406 seconds.
+Run number: 16   Environment number: 29 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.304794 seconds.
+Run number: 14   Environment number: 30 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.345486 seconds.
+Run number: 9   Environment number: 30 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.438113 seconds.
+Run number: 10   Environment number: 28 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.300728 seconds.
+Run number: 12   Environment number: 30 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.300424 seconds.
+Run number: 13   Environment number: 30 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.849090 seconds.
+Run number: 15   Environment number: 28 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.476503 seconds.
+Run number: 11   Environment number: 29 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.261391 seconds.
+Run number: 16   Environment number: 30 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.428481 seconds.
+Run number: 14   Environment number: 31 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.619736 seconds.
+Run number: 10   Environment number: 29 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.339680 seconds.
+Run number: 13   Environment number: 31 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.561654 seconds.
+Run number: 9   Environment number: 31 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.514305 seconds.
+Run number: 12   Environment number: 31 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.605423 seconds.
+Run number: 15   Environment number: 29 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.449340 seconds.
+Run number: 11   Environment number: 30 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.474795 seconds.
+Run number: 16   Environment number: 31 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.702682 seconds.
+Run number: 14   Environment number: 32 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.544088 seconds.
+Run number: 10   Environment number: 30 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.360780 seconds.
+Run number: 13   Environment number: 32 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.383923 seconds.
+Run number: 9   Environment number: 32 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.464722 seconds.
+Run number: 12   Environment number: 32 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.604347 seconds.
+Run number: 15   Environment number: 30 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.451025 seconds.
+Run number: 11   Environment number: 31 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.439096 seconds.
+Run number: 16   Environment number: 32 counter:16 PROBLEM NUMBER: 8
+Elapsed time is 6.564457 seconds.
+Run number: 14   Environment number: 33 counter:14 PROBLEM NUMBER: 8
+Elapsed time is 6.403039 seconds.
+Run number: 9   Environment number: 33 counter:9 PROBLEM NUMBER: 8
+Elapsed time is 6.508761 seconds.
+Run number: 10   Environment number: 31 counter:10 PROBLEM NUMBER: 8
+Elapsed time is 6.329083 seconds.
+Run number: 12   Environment number: 33 counter:12 PROBLEM NUMBER: 8
+Elapsed time is 6.423640 seconds.
+Run number: 13   Environment number: 33 counter:13 PROBLEM NUMBER: 8
+Elapsed time is 6.507853 seconds.
+Run number: 15   Environment number: 31 counter:15 PROBLEM NUMBER: 8
+Elapsed time is 6.427407 seconds.
+Run number: 11   Environment number: 32 counter:11 PROBLEM NUMBER: 8
+Elapsed time is 6.253933 seconds.
+Run number: 16   Environment number: 33 counter:16 PROBLEM NUMBER: 8
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('distcomp.remoteparfor/getCompleteIntervals', 'C:\Program Files\MATLAB\R2021b\toolbox\parallel\distcomp\+distcomp\remoteparfor.m', 379)" style="font-weight:bold">distcomp.remoteparfor/getCompleteIntervals</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\parallel\distcomp\+distcomp\remoteparfor.m',379,0)">line 379</a>)
+
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>distributed_execution', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\lang\parallel_function.m', 746)" style="font-weight:bold">parallel_function>distributed_execution</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\lang\parallel_function.m',746,0)">line 746</a>)
+        [tags, out] = P.getCompleteIntervals(chunkSize);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function', 'C:\Program Files\MATLAB\R2021b\toolbox\matlab\lang\parallel_function.m', 578)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('C:\Program Files\MATLAB\R2021b\toolbox\matlab\lang\parallel_function.m',578,0)">line 578</a>)
+    R = distributed_execution(...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main>ProblemRun', 'C:\Users\Arexh\Desktop\Repos\EC2022-Assignment1\main.m', 117)" style="font-weight:bold">main>ProblemRun</a> (<a href="matlab: opentoline('C:\Users\Arexh\Desktop\Repos\EC2022-Assignment1\main.m',117,0)">line 117</a>)
+        parfor RunCounter = 1:RunNumber
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('main', 'C:\Users\Arexh\Desktop\Repos\EC2022-Assignment1\main.m', 79)" style="font-weight:bold">main</a> (<a href="matlab: opentoline('C:\Users\Arexh\Desktop\Repos\EC2022-Assignment1\main.m',79,0)">line 79</a>)
+    ProblemRun(ProblemNum, CurrentSummary, true);
+} 
+main
+  <a href="matlab:helpPopup Summary" style="font-weight:bold">Summary</a> with properties:
+
+                 LogPath: '.\logs\baseline_large_freq\mQSO-10(5+5)-50000F'
+                   DFile: '.\logs\baseline_large_freq\mQSO-10(5+5)-50000F\main.log'
+       EnvironmentNumber: 100
+               RunNumber: 31
+     IndependentProblems: 8
+    ProblemOfflineErrors: [14×31 double]
+     ProblemElapsedTimes: [14×31 double]
+                   Rerun: 1
+               SimpleLog: 1
+            OptimizerLog: 0
+             PeakNumbers: [5 10 25 50 100 10 10 10 10 10 10 10 1 10]
+        ChangeFrequencys: [5000 5000 5000 5000 5000 2500 1000 50000 5000 5000 5000 5000 5000 5000]
+              Dimensions: [5 5 5 5 5 5 5 5 10 20 5 5 5 2]
+          ShiftSeveritys: [1 1 1 1 1 1 1 1 1 1 2 5 1 1]
+         ProblemTotalNum: 14
+

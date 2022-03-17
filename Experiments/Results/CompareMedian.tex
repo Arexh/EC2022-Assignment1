@@ -1,0 +1,26 @@
+\begin{table}
+  \centering
+  \caption{Average Error on IEEE CEC 2022 Competition on DOPs For Mean Shift and Median Shift, 31 Runs}
+  \begin{tabular}{c|rr|rr|r|r}
+    \hline
+    \multirow{2}{*}{ Problem } & \multicolumn{2}{c|}{Mean} & \multicolumn{2}{c|}{Median} & \multirow{2}{*}{ARI} & \multirow{2}{*}{\shortstack{MEA-MED\\t-test}} \\
+    \cline{2-5}
+    & Mean & Std & Mean & Std & \\
+    \hline
+    F1 & $5.63$ & $1.09$ & $5.71$ & $1.33$ & $-1.5\%$& -0.27\\
+    F2 & $6.91$ & $1.19$ & $6.57$ & $1.32$ & $4.9\%$& 1.05\\
+    F3 & $7.77$ & $1.08$ & $7.41$ & $0.87$ & $4.6\%$& 1.43\\
+    F4 & $7.68$ & $0.74$ & $7.08$ & $0.81$ & $7.8\%$& 3.05$^\dagger$\\
+    F5 & $7.73$ & $0.96$ & $7.05$ & $0.93$ & $8.8\%$& 2.84$^\dagger$\\
+    F6 & $8.00$ & $1.32$ & $7.18$ & $0.93$ & $10.2\%$& 2.82$^\dagger$\\
+    F7 & $11.40$ & $1.83$ & $10.14$ & $1.80$ & $11.0\%$& 2.72$^\dagger$\\
+    F8 & $15.57$ & $2.51$ & $14.84$ & $2.04$ & $4.7\%$& 1.26\\
+    F9 & $22.11$ & $5.58$ & $20.17$ & $4.60$ & $8.8\%$& 1.49\\
+    F10 & $91.71$ & $35.19$ & $86.98$ & $37.23$ & $5.2\%$& 0.51\\
+    F11 & $8.84$ & $1.14$ & $8.48$ & $1.30$ & $4.1\%$& 1.17\\
+    F12 & $13.28$ & $1.52$ & $13.11$ & $1.49$ & $1.3\%$& 0.46\\
+    F13 & $11.09$ & $5.05$ & $9.64$ & $4.46$ & $13.1\%$& 1.20\\
+    F14 & $1.65$ & $0.29$ & $1.50$ & $0.25$ & $9.4\%$& 2.27$^\dagger$\\
+    \hline
+    \multicolumn{7}{c}{}\\    \multicolumn{7}{l}{\shortstack{$^\dagger$A significant $t$ value of a two-tailed test with 60 degrees of freedom \\and $\alpha=0.05$.}}\\  \end{tabular}
+\end{table}
