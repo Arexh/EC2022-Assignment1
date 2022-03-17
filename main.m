@@ -101,9 +101,17 @@ function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
         disp(['Offline Error Updated (Run: ', num2str(x(1)), ').']);
     end
 
+    function UpdateRadius(x)
+        if ~CurrentSummary.SimpleLog
+            CurrentSummary.WriteQuantumRadius(ProblemNum, RunCounter, x);
+        end
+    end
+
     if IfParallel
         D = parallel.pool.DataQueue;
         D.afterEach(@(x) UpdateOfflineError(x));
+        DR = parallel.pool.DataQueue;
+        DR.afterEach(@(x) UpdateRadius(x));
         W = WorkerObjWrapper(CurrentSummary.ProblemOfflineErrors(ProblemNum, :));
 
         parfor RunCounter = 1:RunNumber
@@ -115,9 +123,10 @@ function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
             end
 
             TStart = tic;
-            CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary);
+            [CurrentError, RadiusList] = IndependentRun(ProblemNum, RunCounter, CurrentSummary);
             TEnd = toc(TStart);
             send(D, [RunCounter, TEnd, CurrentError]);
+            send(DR, RadiusList);
         end
 
     else
@@ -130,7 +139,7 @@ function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
             end
 
             TStart = tic;
-            CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary);
+            [CurrentError, RadiusList] = IndependentRun(ProblemNum, RunCounter, CurrentSummary);
             TEnd = toc(TStart);
             CurrentSummary.ProblemElapsedTimes(ProblemNum, RunCounter) = TEnd;
             CurrentSummary.ProblemOfflineErrors(ProblemNum, RunCounter) = mean(CurrentError);
@@ -141,7 +150,7 @@ function ProblemRun(ProblemNum, CurrentSummary, IfParallel)
 
 end
 
-function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
+function [CurrentError, RadiusList] = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     PeakNumber = CurrentSummary.PeakNumbers(ProblemNum);
     ChangeFrequency = CurrentSummary.ChangeFrequencys(ProblemNum);
     Dimension = CurrentSummary.Dimensions(ProblemNum);
@@ -153,7 +162,7 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     %% Initialiing Optimizer
     clear Optimizer;
     Optimizer.Dimension = Problem.Dimension;
-    Optimizer.PopulationSize = 5;
+    Optimizer.PopulationSize = 10;
     Optimizer.MaxCoordinate = Problem.MaxCoordinate;
     Optimizer.MinCoordinate = Problem.MinCoordinate;
     Optimizer.DiversityPlus = 1;
@@ -162,10 +171,11 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
     Optimizer.c2 = 2.05;
     Optimizer.ShiftSeverity = 1;
     Optimizer.QuantumRadius = Optimizer.ShiftSeverity;
-    Optimizer.QuantumNumber = 5;
-    Optimizer.SwarmNumber = 10;
+    Optimizer.QuantumNumber = 10;
+    Optimizer.SwarmNumber = 5;
     Optimizer.ExclusionLimit = 0.5 * ((Optimizer.MaxCoordinate - Optimizer.MinCoordinate) / ((Optimizer.SwarmNumber)^(1 / Optimizer.Dimension)));
     Optimizer.ConvergenceLimit = Optimizer.ExclusionLimit;
+    RadiusList = [];
     if ~CurrentSummary.OptimizerLog
         disp(Optimizer);
     end
@@ -181,6 +191,7 @@ function CurrentError = IndependentRun(ProblemNum, RunCounter, CurrentSummary)
 
         if Problem.RecentChange == 1 %When an environmental change has happened
             Problem.RecentChange = 0;
+            RadiusList = [RadiusList, Optimizer.QuantumRadius];
             [Optimizer, Problem] = Reaction(Optimizer, Problem);
             clc; disp(['Run number: ', num2str(RunCounter), '   Environment number: ', num2str(Problem.Environmentcounter), ' counter:', num2str(RunCounter), ' PROBLEM NUMBER: ', num2str(ProblemNum)]);
             toc;

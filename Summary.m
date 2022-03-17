@@ -47,6 +47,7 @@ classdef Summary < handle
             obj.CreateSubFolder('summary');
             obj.CreateSubFolder('all_offline_error');
             obj.CreateSubFolder('all_offline_error_plot');
+            obj.CreateSubFolder('quantum_radius');
 
             for index = 1:length(obj.IndependentProblems)
                 obj.CreateSubFolder(fullfile('all_offline_error', sprintf('F%d', obj.IndependentProblems(index))));
@@ -177,6 +178,10 @@ classdef Summary < handle
             Summary.WriteFile(obj.GetAllOfflineErrorFile(ProblemNum, RunCounter), AllOfflineError)
         end
 
+        function WriteQuantumRadius(obj, ProblemNum, RunCounter, RadiusList)
+            Summary.WriteFile(fullfile(obj.LogPath, 'quantum_radius', sprintf('F%d_%d.dat', ProblemNum, RunCounter)), RadiusList);
+        end
+
         function PlotAllOfflineError(obj, ProblemNum, RunCounter, AllOfflineError)
             figure('visible', 'off');
             plot(AllOfflineError);
@@ -217,9 +222,9 @@ classdef Summary < handle
 
     methods (Static)
         %% Util Function
-        function WriteFile(OuputFile, OfflineError)
+        function WriteFile(OuputFile, Content)
             f = fopen(OuputFile, 'w');
-            fprintf(f, '%f ', OfflineError);
+            fprintf(f, '%f ', Content);
             fclose(f);
         end
 
